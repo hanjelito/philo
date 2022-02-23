@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/21 12:47:08 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/23 18:59:17 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ typedef struct  s_philo
 typedef struct  s_node
 {
     int n_philos;
+    pthread_mutex_t	*print;
     struct s_philo philo;
 }               t_node;
 

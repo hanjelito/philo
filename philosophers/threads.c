@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/21 18:42:14 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/23 19:14:09 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void *threads(void *philo_current)
     i = 0;
     while(i < r)
     {
-        printf("entro %d - %d\n", i, philo->id);
+        // printf("entro %d - %d\n", i, philo->id);
         sleep(2);
         ++i;
     }

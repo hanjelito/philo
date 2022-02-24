@@ -6,33 +6,12 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/23 19:16:27 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/24 13:58:16 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers.h"
 
-
-
-
-void proceos(t_node *node)
-{
-    imprimir(node);
-}
-
-void imprimir(t_node *node)
-{
-    pthread_mutex_lock(*(&node->print));
-    write(1,"philo\n",6);
-    pthread_mutex_unlock(*(&node->print));
-}
-
-void mutex_print(t_node *node)
-{
-    static pthread_mutex_t print;
-    pthread_mutex_init(&print, NULL);
-    node->print = &print;
-}
 
 void run_philos(t_node *node)
 {
@@ -49,12 +28,12 @@ void run_philos(t_node *node)
 		{
             pthread_create(&newthread, NULL, threads, (void *)philo_current);
 			philo_current = philo_current->next;
-            proceos(node);
             if(node->philo.first == philo_current)
                 break ;
             i++;
 		}
-        pthread_join(newthread, NULL);
+        if(newthread)
+            pthread_join(newthread, NULL);
 	} else
 	{
 		printf("\n la lista se encuentra vacia\n\n");

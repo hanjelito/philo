@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/23 19:14:09 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/24 17:34:33 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,17 +16,27 @@
 void *threads(void *philo_current)
 {
     int i;
-    int r = rand() % 10;
+    int fork1;
+    int fork2;
     t_philo *philo;
-
     philo = (t_philo *)philo_current;
-    i = 0;
-    while(i < r)
+    while(1)
     {
-        // printf("entro %d - %d\n", i, philo->id);
-        sleep(2);
-        ++i;
+        philo->status = 1;
+        if(philo->prev->status == 0)
+        {
+            philo->prev->status = 1;
+            pthread_mutex_lock(&philo->fork);
+            pthread_mutex_lock(&philo->prev->fork);
+            printf("philo %d  comiendo\n", philo->id);
+            sleep(2);
+            pthread_mutex_unlock(&philo->fork);
+            pthread_mutex_unlock(&philo->prev->fork);
+            philo->status = 0;
+            philo->prev->status = 0;
+            ++i;
+        }
     }
-    printf("--\n");
+    printf("--- murio %d\n", philo->id);
     return (NULL);
 }

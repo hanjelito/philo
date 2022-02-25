@@ -3,4 +3,4 @@ philosophers/philosophers.c \
 philosophers/create.c \
 philosophers/threads.c \
 main.c
-./a.out 10
+./a.out 1

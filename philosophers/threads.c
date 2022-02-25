@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/24 17:34:33 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/25 15:40:22 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,23 +20,22 @@ void *threads(void *philo_current)
     int fork2;
     t_philo *philo;
     philo = (t_philo *)philo_current;
+    i = 1;
     while(1)
     {
-        philo->status = 1;
-        if(philo->prev->status == 0)
+        pthread_mutex_lock(&philo->prev->fork);
+        pthread_mutex_lock(&philo->fork);
+        printf("philo %d  comiendo - nro de comidaj(%d)\n", philo->id, i);
+        sleep(2);
+        pthread_mutex_unlock(&philo->prev->fork);
+        pthread_mutex_unlock(&philo->fork);
+        if(i >= 10)
         {
-            philo->prev->status = 1;
-            pthread_mutex_lock(&philo->fork);
-            pthread_mutex_lock(&philo->prev->fork);
-            printf("philo %d  comiendo\n", philo->id);
-            sleep(2);
-            pthread_mutex_unlock(&philo->fork);
-            pthread_mutex_unlock(&philo->prev->fork);
-            philo->status = 0;
-            philo->prev->status = 0;
-            ++i;
+            philo->status = 1;
+            printf("--- murio %d\n", philo->id);
+            break ;
         }
+        ++i;
     }
-    printf("--- murio %d\n", philo->id);
     return (NULL);
 }

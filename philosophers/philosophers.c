@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/25 16:04:51 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/25 16:38:39 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,11 @@ void run_philos(t_node *node)
         while(i < node->n_philos)
         {
             pthread_join(newthread[i], NULL);
+            if(!pthread_join(newthread[i], NULL))
+            {
+                sleep(1);
+                break ;
+            }
             i++;
         }
     }else {

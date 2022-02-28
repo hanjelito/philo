@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/25 11:58:49 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/27 17:24:52 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,17 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/stat.h>
+#include <sys/time.h>
 #include <fcntl.h>
 #include "../utils/libft.h"
+#include "../time/get_time.h"
 
 typedef enum	e_status
 {
 	TAKE_FORK,
 	EATING,
-	THINKING,
 	SLEEPING,
+	THINKING,
 	DEAD
 }				t_status;
 
@@ -34,6 +36,7 @@ typedef struct  s_philo
 {
     int id;
     int status;
+    long create_at;
     pthread_mutex_t	fork;
     struct s_philo *next;
     struct s_philo *prev;

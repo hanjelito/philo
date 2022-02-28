@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/02/27 17:38:35 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/02/28 18:24:36 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,24 +16,38 @@
 void *threads(void *philo_current)
 {
     int i;
-    int fork1;
-    int fork2;
-    
     t_philo *philo;
+
     philo = (t_philo *)philo_current;
     i = 1;
     while(1)
     {
+        
         pthread_mutex_lock(&philo->prev->fork);
         pthread_mutex_lock(&philo->fork);
-        printf("[%ld] philo %d  comiendo - nro de comidaj(%d)\n", timeline(philo->create_at), philo->id, i);
-        
+        printf("[%ld] %d  has taken a fork (%d)\n", timeline(philo->create_at), philo->id, i);
+        philo->status = EATING;
+        usleep_time(200);
         pthread_mutex_unlock(&philo->prev->fork);
         pthread_mutex_unlock(&philo->fork);
-        if(i >= 10)
+        // philo_take_fork(philo, i);
+        pthread_mutex_lock(&philo->message);
+        usleep_time(250);
+        philo_eat(philo, i);
+        pthread_mutex_unlock(&philo->message);
+        //
+        pthread_mutex_lock(&philo->message);
+        usleep_time(300);
+        philo_sleeping(philo, i);
+        pthread_mutex_unlock(&philo->message);
+        //
+        pthread_mutex_lock(&philo->message);
+        philo_thinking(philo, i);
+        pthread_mutex_unlock(&philo->message);
+        if(i >=  6)
         {
-            philo->status = 1;
-            printf("--- murio %d\n", philo->id);
+            philo->status = DEAD;
+            printf("--- ultima comida %d\n", philo->id);
             break ;
         }
         ++i;
@@ -41,26 +55,44 @@ void *threads(void *philo_current)
     return (NULL);
 }
 
-void philo_take_fork(t_philo *philo)
+void philo_take_fork(t_philo *philo, int i)
 {
     if(philo->status == TAKE_FORK)
     {
-        usleep_time(200);
+        pthread_mutex_lock(&philo->prev->fork);
+        pthread_mutex_lock(&philo->fork);
+        usleep_time(300);
+        printf("[%ld] %d  has taken a fork (%d)\n", timeline(philo->create_at), philo->id, i);
+        pthread_mutex_unlock(&philo->prev->fork);
+        pthread_mutex_unlock(&philo->fork);
         philo->status = EATING;
     }
 }
 
-void philo_eat(t_philo *philo)
+void philo_eat(t_philo *philo , int i)
 {
+    if(philo->status == EATING)
+    {
+        printf("[%ld] %d  is eating (%d)\n", timeline(philo->create_at), philo->id, i);
+        philo->status = SLEEPING;
+    }
+}
+
+void philo_sleeping(t_philo *philo , int i)
+{
+    if(philo->status == SLEEPING)
+    {
+        printf("[%ld] %d  is sleeping (%d)\n", timeline(philo->create_at), philo->id, i);
+        philo->status = THINKING;
+    }
     
 }
 
-void philo_sleeping(t_philo *philo)
+void philo_thinking(t_philo *philo , int i)
 {
-    
-}
-
-void philo_thinking(t_philo *philo)
-{
-    
+    if(philo->status == THINKING)
+    {
+        printf("[%ld] %d  is thinking (%d)\n", timeline(philo->create_at), philo->id, i);
+        philo->status = TAKE_FORK;
+    }
 }

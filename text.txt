@@ -1,0 +1,2649 @@
+[0] 10 has taken a fork
+[0] 2 has taken a fork
+[0] 1 has taken a fork
+[0] 10 is eating
+[0] 4 has taken a fork
+[0] 10 is sleeping
+[0] 2 is eating
+[0] 10 is thinking
+[0] 2 is sleeping
+[0] 7 has taken a fork
+[0] 9 has taken a fork
+[0] 10 has taken a fork
+[0] 2 is thinking
+[0] 1 is eating
+[0] 3 has taken a fork
+[0] 1 is sleeping
+[0] 6 has taken a fork
+[0] 4 is eating
+[0] 10 is eating
+[0] 8 has taken a fork
+[0] 1 is thinking
+[0] 4 is sleeping
+[0] 10 is sleeping
+[0] 10 is thinking
+[0] 7 is eating
+[0] 4 is thinking
+[0] 7 is sleeping
+[0] 7 is thinking
+[0] 9 is eating
+[0] 9 is sleeping
+[0] 9 is thinking
+[0] 2 has taken a fork
+[1] 3 is eating
+[1] 5 has taken a fork
+[1] 3 is sleeping
+[1] 6 is eating
+[1] 7 has taken a fork
+[1] 3 is thinking
+[1] 8 is eating
+[1] 6 is sleeping
+[1] 8 is sleeping
+[1] 6 is thinking
+[1] 8 is thinking
+[1] 3 has taken a fork
+[1] 1 has taken a fork
+[1] 2 is eating
+[1] 7 is eating
+[1] 2 is sleeping
+[1] 7 is sleeping
+[1] 6 has taken a fork
+[1] 4 has taken a fork
+[1] 5 is eating
+[1] 5 is sleeping
+[1] 5 is thinking
+[1] 8 has taken a fork
+[1] 10 has taken a fork
+[1] 1 is eating
+[1] 1 is sleeping
+[1] 7 is thinking
+[1] 3 is eating
+[1] 2 is thinking
+[1] 1 is thinking
+[1] 4 is eating
+[1] 3 is sleeping
+[1] 4 is sleeping
+[1] 3 is thinking
+[1] 4 is thinking
+[1] 6 is eating
+[1] 1 has taken a fork
+[1] 3 has taken a fork
+[1] 7 has taken a fork
+[1] 5 has taken a fork
+[1] 9 has taken a fork
+[1] 5 is eating
+[1] 3 is eating
+[1] 4 has taken a fork
+[1] 3 is sleeping
+[1] 6 is sleeping
+[1] 3 is thinking
+[1] 1 is eating
+[1] 6 is thinking
+[1] 1 is sleeping
+[1] 5 is sleeping
+[1] 8 is eating
+[1] 1 is thinking
+[1] 7 is eating
+[1] 5 is thinking
+[1] 1 has taken a fork
+[1] 6 has taken a fork
+[1] 2 has taken a fork
+[2] 5 has taken a fork
+[2] 7 is sleeping
+[2] 7 is thinking
+[2] 3 has taken a fork
+[2] 4 is eating
+[2] 4 is sleeping
+[2] 9 is eating
+[2] 1 is eating
+[2] 1 is sleeping
+[2] 7 has taken a fork
+[2] 1 is thinking
+[2] 10 is eating
+[2] 2 is eating
+[2] 10 is sleeping
+[2] 2 is sleeping
+[2] 10 is thinking
+[2] 5 is eating
+[2] 1 has taken a fork
+[2] 9 is sleeping
+[2] 2 is thinking
+[2] 9 is thinking
+[2] 5 is sleeping
+[2] 5 is thinking
+[2] 2 has taken a fork
+[2] 4 is eating
+[2] 3 is eating
+[2] 10 has taken a fork
+[2] 3 is sleeping
+[2] 3 is thinking
+[2] 9 has taken a fork
+[2] 1 is eating
+[2] 3 has taken a fork
+[2] 6 is eating
+[2] 7 is eating
+[2] 7 is sleeping
+[2] 5 has taken a fork
+[2] 9 is sleeping
+[2] 7 is thinking
+[3] 6 is sleeping
+[3] 6 is thinking
+[3] 1 is sleeping
+[3] 1 is thinking
+[3] 8 is sleeping
+[3] 7 has taken a fork
+[3] 2 is eating
+[3] 2 is sleeping
+[3] 2 is thinking
+[3] 10 is eating
+[3] 10 is sleeping
+[3] 10 is thinking
+[3] 2 has taken a fork
+[3] 1 has taken a fork
+[3] 6 has taken a fork
+[3] 5 is eating
+[3] 4 is sleeping
+[3] 3 is eating
+[3] 5 is sleeping
+[3] 9 is thinking
+[3] 9 is thinking
+[3] 3 is sleeping
+[3] 4 is thinking
+[3] 4 has taken a fork
+[3] 8 is thinking
+[3] 6 is eating
+[3] 7 is eating
+[3] 9 has taken a fork
+[3] 7 is sleeping
+[3] 7 is thinking
+[3] 2 is eating
+[3] 2 is sleeping
+[3] 2 is thinking
+[3] 6 is sleeping
+[3] 6 is thinking
+[3] 7 has taken a fork
+[3] 1 is eating
+[3] 8 has taken a fork
+[3] 4 is eating
+[3] 5 is thinking
+[3] 4 is sleeping
+[3] 6 has taken a fork
+[3] 10 has taken a fork
+[4] 3 is thinking
+[4] 4 is thinking
+[4] 3 has taken a fork
+[4] 5 has taken a fork
+[4] 9 is eating
+[4] 9 is sleeping
+[4] 7 is eating
+[4] 9 is thinking
+[4] 7 is sleeping
+[4] 7 is thinking
+[4] 1 is sleeping
+[4] 1 is thinking
+[4] 8 is eating
+[4] 10 is eating
+[4] 2 has taken a fork
+[4] 9 has taken a fork
+[4] 1 has taken a fork
+[4] 7 has taken a fork
+[4] 10 is sleeping
+[4] 6 is eating
+[4] 6 is sleeping
+[4] 8 is sleeping
+[4] 6 is thinking
+[4] 8 is thinking
+[4] 10 is thinking
+[4] 6 has taken a fork
+[4] 10 has taken a fork
+[4] 5 is eating
+[4] 4 has taken a fork
+[4] 5 is sleeping
+[4] 5 is thinking
+[4] 3 is eating
+[4] 3 is sleeping
+[4] 3 is thinking
+[5] 5 has taken a fork
+[5] 3 has taken a fork
+[5] 7 is eating
+[5] 2 is eating
+[5] 7 is sleeping
+[5] 2 is sleeping
+[5] 7 is thinking
+[5] 9 is eating
+[5] 9 is sleeping
+[5] 2 is thinking
+[5] 7 has taken a fork
+[5] 8 has taken a fork
+[5] 2 has taken a fork
+[5] 10 is eating
+[5] 10 is sleeping
+[5] 4 is eating
+[5] 4 is sleeping
+[5] 10 is thinking
+[5] 4 is thinking
+[5] 10 has taken a fork
+[5] 4 has taken a fork
+[5] 5 is eating
+[5] 3 is eating
+[5] 3 is sleeping
+[5] 3 is thinking
+[5] 5 is sleeping
+[5] 5 is thinking
+[5] 9 is thinking
+[5] 8 is eating
+[5] 7 is eating
+[5] 8 is sleeping
+[5] 7 is sleeping
+[5] 1 is eating
+[5] 7 is thinking
+[5] 8 is thinking
+[5] 9 has taken a fork
+[5] 3 has taken a fork
+[6] 6 is eating
+[6] 7 has taken a fork
+[6] 6 is sleeping
+[6] 2 is eating
+[6] 6 is thinking
+[6] 2 is sleeping
+[6] 10 is eating
+[6] 2 is thinking
+[6] 10 is sleeping
+[6] 10 is thinking
+[6] 4 is eating
+[6] 4 is sleeping
+[6] 4 is thinking
+[6] 10 has taken a fork
+[6] 5 has taken a fork
+[6] 4 has taken a fork
+[6] 2 has taken a fork
+[6] 6 has taken a fork
+[6] 3 is eating
+[6] 9 is eating
+[6] 9 is sleeping
+[6] 1 is sleeping
+[6] 9 is thinking
+[6] 3 is sleeping
+[6] 9 has taken a fork
+[6] 6 is eating
+[6] 2 is eating
+[6] 8 has taken a fork
+[6] 4 is eating
+[6] 2 is sleeping
+[6] 6 is sleeping
+[6] 4 is sleeping
+[6] 10 is eating
+[6] 10 is sleeping
+[6] 4 is thinking
+[6] 5 is eating
+[6] 2 is thinking
+[6] 6 is thinking
+[6] 10 is thinking
+[6] 5 is sleeping
+[6] 5 is thinking
+[6] 4 has taken a fork
+[6] 3 is thinking
+[7] 2 has taken a fork
+[7] 1 is thinking
+[7] 10 has taken a fork
+[7] 7 is eating
+[7] 8 is eating
+[7] 8 is sleeping
+[7] 6 has taken a fork
+[7] 5 has taken a fork
+[7] 1 has taken a fork
+[7] 3 has taken a fork
+[7] 8 is thinking
+[7] 4 is eating
+[7] 4 is sleeping
+[7] 4 is thinking
+[7] 2 is eating
+[7] 2 is sleeping
+[7] 8 has taken a fork
+[7] 4 has taken a fork
+[7] 2 is thinking
+[7] 9 is eating
+[7] 6 is eating
+[7] 9 is sleeping
+[7] 9 is thinking
+[7] 6 is sleeping
+[7] 1 is eating
+[7] 9 has taken a fork
+[7] 6 is thinking
+[7] 1 is sleeping
+[7] 1 is thinking
+[7] 5 is eating
+[7] 3 is eating
+[7] 5 is sleeping
+[7] 3 is sleeping
+[7] 5 is thinking
+[7] 3 is thinking
+[7] 1 has taken a fork
+[7] 3 has taken a fork
+[8] 4 is eating
+[8] 4 is sleeping
+[8] 10 is eating
+[8] 6 has taken a fork
+[8] 5 has taken a fork
+[8] 10 is sleeping
+[8] 10 is thinking
+[8] 9 is eating
+[8] 9 is sleeping
+[8] 2 has taken a fork
+[8] 9 is thinking
+[8] 3 is eating
+[8] 10 has taken a fork
+[8] 1 is eating
+[8] 9 has taken a fork
+[8] 1 is sleeping
+[8] 1 is thinking
+[8] 7 is sleeping
+[8] 8 is eating
+[8] 7 is thinking
+[8] 4 is thinking
+[8] 6 is eating
+[8] 2 is eating
+[8] 2 is sleeping
+[8] 6 is sleeping
+[8] 2 is thinking
+[8] 4 has taken a fork
+[8] 6 is thinking
+[8] 9 is eating
+[8] 10 is eating
+[8] 9 is sleeping
+[8] 10 is sleeping
+[8] 6 has taken a fork
+[8] 10 is thinking
+[8] 3 is sleeping
+[9] 9 is thinking
+[9] 9 has taken a fork
+[9] 8 is sleeping
+[9] 3 is thinking
+[9] 8 is thinking
+[9] 9 is eating
+[9] 2 has taken a fork
+[9] 9 is sleeping
+[9] 9 is thinking
+[9] 9 has taken a fork
+[9] 1 has taken a fork
+[9] 5 is eating
+[9] 7 has taken a fork
+[9] 9 is eating
+[9] 5 is sleeping
+[9] 9 is sleeping
+[9] 9 is thinking
+[9] 8 has taken a fork
+[9] 4 is eating
+[9] 4 is sleeping
+[9] 4 is thinking
+[9] 6 is eating
+[9] 4 has taken a fork
+[9] 6 is sleeping
+[9] 6 is thinking
+[9] 10 has taken a fork
+[9] 7 is eating
+[9] 6 has taken a fork
+[9] 1 is eating
+[9] 8 is eating
+[9] 7 is sleeping
+[9] 8 is sleeping
+[9] 7 is thinking
+[9] 1 is sleeping
+[10] 8 is thinking
+[10] 1 is thinking
+[10] 8 has taken a fork
+[10] 4 is eating
+[10] 7 has taken a fork
+[10] 4 is sleeping
+[10] 4 is thinking
+[10] 1 has taken a fork
+[10] 6 is eating
+[10] 10 is eating
+[10] 10 is sleeping
+[10] 6 is sleeping
+[10] 4 has taken a fork
+[10] 7 is eating
+[10] 5 is thinking
+[10] 6 is thinking
+[10] 2 is eating
+[10] 2 is sleeping
+[10] 5 has taken a fork
+[10] 7 is sleeping
+[10] 7 is thinking
+[10] 6 has taken a fork
+[10] 7 has taken a fork
+[10] 10 is thinking
+[10] 1 is eating
+[10] 1 is sleeping
+[10] 1 is thinking
+[10] 2 is eating
+[11] 4 is eating
+[11] 3 has taken a fork
+[11] 4 is sleeping
+[11] 4 is thinking
+[11] 5 is eating
+[11] 5 is sleeping
+[11] 2 is sleeping
+[11] 5 is thinking
+[11] 10 has taken a fork
+[11] 6 is eating
+[11] 6 is sleeping
+[11] 6 is thinking
+[11] 7 is eating
+[11] 7 is sleeping
+[11] 6 has taken a fork
+[11] 7 is thinking
+[11] 5 has taken a fork
+[11] 9 has taken a fork
+[11] 10 is eating
+[11] 1 has taken a fork
+[11] 7 has taken a fork
+[11] 2 is thinking
+[11] 8 is eating
+[11] 8 is sleeping
+[11] 10 is sleeping
+[11] 8 is thinking
+[11] 10 is thinking
+[12] 7 is eating
+[12] 6 is eating
+[12] 8 has taken a fork
+[12] 10 has taken a fork
+[12] 6 is sleeping
+[12] 6 is thinking
+[12] 9 is eating
+[12] 5 is eating
+[12] 5 is sleeping
+[12] 1 is eating
+[12] 4 has taken a fork
+[12] 7 is sleeping
+[12] 9 is sleeping
+[12] 3 is eating
+[12] 7 is thinking
+[12] 9 is thinking
+[12] 3 is sleeping
+[12] 3 is thinking
+[12] 6 has taken a fork
+[12] 7 has taken a fork
+[12] 2 has taken a fork
+[12] 8 is eating
+[12] 8 is sleeping
+[12] 10 is eating
+[12] 8 is thinking
+[12] 10 is sleeping
+[12] 10 is thinking
+[13] 10 has taken a fork
+[13] 1 is sleeping
+[13] 5 is thinking
+[13] 1 is thinking
+[13] 4 is eating
+[13] 7 is eating
+[13] 4 is sleeping
+[13] 7 is sleeping
+[13] 7 is thinking
+[13] 1 has taken a fork
+[13] 2 is eating
+[13] 2 is sleeping
+[13] 2 is thinking
+[13] 5 has taken a fork
+[13] 10 is eating
+[13] 3 has taken a fork
+[13] 2 has taken a fork
+[13] 8 has taken a fork
+[13] 4 is thinking
+[13] 5 is eating
+[13] 6 is eating
+[13] 6 is sleeping
+[13] 7 has taken a fork
+[14] 6 is thinking
+[14] 9 has taken a fork
+[14] 4 has taken a fork
+[14] 5 is sleeping
+[14] 5 is thinking
+[14] 6 has taken a fork
+[14] 10 is sleeping
+[14] 3 is eating
+[14] 10 is thinking
+[14] 2 is eating
+[14] 5 has taken a fork
+[14] 3 is sleeping
+[14] 3 is thinking
+[14] 8 is eating
+[14] 8 is sleeping
+[14] 3 has taken a fork
+[14] 8 is thinking
+[14] 10 has taken a fork
+[14] 1 is eating
+[14] 8 has taken a fork
+[14] 1 is sleeping
+[14] 1 is thinking
+[14] 4 is eating
+[14] 9 is eating
+[14] 4 is sleeping
+[14] 4 is thinking
+[14] 9 is sleeping
+[14] 9 is thinking
+[14] 2 is sleeping
+[14] 1 has taken a fork
+[14] 6 is eating
+[14] 9 has taken a fork
+[14] 6 is sleeping
+[14] 6 is thinking
+[14] 5 is eating
+[15] 5 is sleeping
+[15] 3 is eating
+[15] 5 is thinking
+[15] 2 is thinking
+[15] 10 is eating
+[15] 8 is eating
+[15] 7 is eating
+[15] 5 has taken a fork
+[15] 8 is sleeping
+[15] 8 is thinking
+[15] 9 is eating
+[15] 8 has taken a fork
+[15] 5 is eating
+[15] 1 is eating
+[15] 4 has taken a fork
+[15] 9 is sleeping
+[15] 9 is thinking
+[15] 1 is sleeping
+[15] 3 is sleeping
+[15] 3 is thinking
+[15] 2 has taken a fork
+[15] 9 has taken a fork
+[15] 10 is sleeping
+[15] 7 is sleeping
+[15] 3 has taken a fork
+[15] 7 is thinking
+[16] 8 is eating
+[16] 8 is sleeping
+[16] 7 has taken a fork
+[16] 8 is thinking
+[16] 4 is eating
+[16] 4 is sleeping
+[16] 1 is thinking
+[16] 4 is thinking
+[16] 6 has taken a fork
+[16] 9 is eating
+[16] 1 has taken a fork
+[16] 2 is eating
+[16] 9 is sleeping
+[16] 2 is sleeping
+[16] 10 is thinking
+[16] 5 is sleeping
+[16] 5 is thinking
+[16] 9 is thinking
+[16] 5 has taken a fork
+[17] 9 has taken a fork
+[17] 7 is eating
+[17] 7 is sleeping
+[17] 8 has taken a fork
+[17] 7 is thinking
+[18] 10 has taken a fork
+[18] 1 is eating
+[18] 2 is thinking
+[18] 3 is eating
+[18] 1 is sleeping
+[18] 7 has taken a fork
+[18] 9 is eating
+[18] 5 is eating
+[18] 10 is eating
+[18] 5 is sleeping
+[18] 10 is sleeping
+[18] 5 is thinking
+[18] 9 is sleeping
+[18] 9 is thinking
+[19] 10 is thinking
+[19] 4 has taken a fork
+[19] 9 has taken a fork
+[19] 7 is eating
+[19] 5 has taken a fork
+[19] 7 is sleeping
+[19] 7 is thinking
+[19] 3 is sleeping
+[19] 6 is eating
+[19] 1 is thinking
+[19] 3 is thinking
+[18] 9 is sleeping
+[18] 2 has taken a fork
+[19] 7 has taken a fork
+[19] 1 has taken a fork
+[19] 6 is sleeping
+[19] 5 is eating
+[19] 5 is sleeping
+[19] 5 is thinking
+[19] 3 has taken a fork
+[20] 8 is eating
+[20] 8 is sleeping
+[20] 8 is thinking
+[20] 9 is thinking
+[20] 4 is eating
+[20] 7 is eating
+[20] 5 has taken a fork
+[20] 1 is eating
+[20] 2 is eating
+[20] 3 is eating
+[20] 3 is sleeping
+[20] 3 is thinking
+[20] 3 has taken a fork
+[20] 4 is sleeping
+[20] 9 has taken a fork
+[21] 10 has taken a fork
+[21] 7 is sleeping
+[21] 7 is thinking
+[21] 2 is sleeping
+[21] 6 is thinking
+[21] 7 has taken a fork
+[21] 3 is eating
+[21] 3 is sleeping
+[21] 3 is thinking
+[21] 5 is eating
+[21] 5 is sleeping
+[21] 1 is sleeping
+[21] 6 has taken a fork
+[22] 7 is eating
+[22] 1 is thinking
+[22] 7 is sleeping
+[22] 7 is thinking
+[22] 2 is thinking
+[22] 7 has taken a fork
+[22] 9 is eating
+[22] 2 has taken a fork
+[22] 6 is eating
+[22] 6 is sleeping
+[22] 8 has taken a fork
+[22] 6 is thinking
+[22] 7 is eating
+[22] 6 has taken a fork
+[22] 7 is sleeping
+[23] 7 is thinking
+[23] 7 has taken a fork
+[23] 10 is eating
+[23] 2 is eating
+[23] 3 has taken a fork
+[23] 8 is eating
+[23] 9 is sleeping
+[23] 9 is thinking
+[23] 8 is sleeping
+[23] 8 is thinking
+[23] 6 is eating
+[23] 6 is sleeping
+[23] 6 is thinking
+[23] 8 has taken a fork
+[23] 7 is eating
+[23] 7 is sleeping
+[23] 7 is thinking
+[24] 2 is sleeping
+[24] 1 has taken a fork
+[24] 3 is eating
+[24] 3 is sleeping
+[24] 3 is thinking
+[24] 8 is eating
+[24] 6 has taken a fork
+[24] 8 is sleeping
+[24] 8 is thinking
+[24] 3 has taken a fork
+[24] 2 is thinking
+[24] 10 is sleeping
+[24] 5 is thinking
+[24] 4 is thinking
+[24] 9 has taken a fork
+[24] 8 has taken a fork
+[24] 7 has taken a fork
+[25] 4 has taken a fork
+[25] 3 is eating
+[25] 3 is sleeping
+[25] 3 is thinking
+[25] 6 is eating
+[25] 6 is sleeping
+[25] 6 is thinking
+[25] 6 has taken a fork
+[25] 10 is thinking
+[25] 1 is eating
+[26] 2 has taken a fork
+[26] 5 has taken a fork
+[26] 3 has taken a fork
+[26] 4 is eating
+[26] 4 is sleeping
+[26] 4 is thinking
+[26] 9 is eating
+[26] 9 is sleeping
+[26] 9 is thinking
+[26] 6 is eating
+[26] 6 is sleeping
+[26] 6 is thinking
+[26] 4 has taken a fork
+[26] 8 is eating
+[26] 4 is eating
+[26] 5 is eating
+[27] 7 is eating
+[27] 5 is sleeping
+[27] 5 is thinking
+[27] 5 has taken a fork
+[27] 9 has taken a fork
+[27] 1 is sleeping
+[27] 8 is sleeping
+[27] 6 has taken a fork
+[27] 10 has taken a fork
+[27] 2 is eating
+[27] 3 is eating
+[27] 3 is sleeping
+[27] 7 is sleeping
+[27] 7 is thinking
+[27] 5 is eating
+[28] 9 is eating
+[28] 9 is sleeping
+[28] 9 is thinking
+[28] 8 is thinking
+[28] 4 is sleeping
+[28] 2 is sleeping
+[28] 4 is thinking
+[28] 5 is sleeping
+[28] 5 is thinking
+[29] 5 has taken a fork
+[29] 6 is eating
+[29] 3 is thinking
+[29] 7 has taken a fork
+[29] 4 has taken a fork
+[29] 1 is thinking
+[29] 8 has taken a fork
+[29] 8 is eating
+[29] 2 is thinking
+[29] 5 is eating
+[29] 5 is sleeping
+[29] 5 is thinking
+[30] 2 has taken a fork
+[30] 6 is sleeping
+[30] 6 is thinking
+[30] 8 is sleeping
+[30] 10 is eating
+[30] 9 has taken a fork
+[30] 5 has taken a fork
+[30] 1 has taken a fork
+[30] 2 is eating
+[30] 2 is sleeping
+[30] 2 is thinking
+[30] 2 has taken a fork
+[30] 7 is eating
+[30] 7 is sleeping
+[31] 8 is thinking
+[31] 5 is eating
+[31] 5 is sleeping
+[31] 5 is thinking
+[31] 5 has taken a fork
+[31] 2 is eating
+[31] 2 is sleeping
+[31] 2 is thinking
+[31] 8 has taken a fork
+[31] 4 is eating
+[31] 9 is eating
+[31] 4 is sleeping
+[31] 9 is sleeping
+[31] 10 is sleeping
+[31] 9 is thinking
+[31] 2 has taken a fork
+[31] 7 is thinking
+[31] 3 has taken a fork
+[31] 10 is thinking
+[32] 9 has taken a fork
+[32] 1 is eating
+[32] 1 is sleeping
+[32] 5 is eating
+[32] 5 is sleeping
+[32] 1 is thinking
+[32] 5 is thinking
+[32] 10 has taken a fork
+[32] 1 has taken a fork
+[32] 8 is eating
+[32] 8 is sleeping
+[32] 8 is thinking
+[32] 4 is thinking
+[32] 8 has taken a fork
+[32] 9 is eating
+[32] 3 is eating
+[32] 3 is sleeping
+[32] 4 has taken a fork
+[32] 9 is sleeping
+[32] 9 is thinking
+[32] 10 is eating
+[32] 10 is sleeping
+[32] 10 is thinking
+[33] 5 has taken a fork
+[33] 1 is eating
+[33] 1 is sleeping
+[33] 10 has taken a fork
+[33] 9 has taken a fork
+[33] 1 is thinking
+[33] 2 is eating
+[33] 6 has taken a fork
+[33] 1 has taken a fork
+[33] 7 has taken a fork
+[33] 3 is thinking
+[33] 4 is eating
+[33] 4 is sleeping
+[33] 4 is thinking
+[33] 10 is eating
+[33] 10 is sleeping
+[33] 4 has taken a fork
+[34] 1 is eating
+[34] 9 is eating
+[34] 3 has taken a fork
+[34] 9 is sleeping
+[34] 9 is thinking
+[34] 2 is sleeping
+[34] 1 is sleeping
+[34] 1 is thinking
+[34] 8 is eating
+[34] 4 is eating
+[34] 8 is sleeping
+[34] 8 is thinking
+[34] 1 has taken a fork
+[34] 5 is eating
+[34] 8 has taken a fork
+[34] 10 is thinking
+[34] 3 is eating
+[34] 3 is sleeping
+[35] 2 is thinking
+[35] 6 is eating
+[35] 2 has taken a fork
+[35] 7 is eating
+[35] 1 is eating
+[35] 1 is sleeping
+[35] 1 is thinking
+[35] 1 has taken a fork
+[35] 8 is eating
+[35] 5 is sleeping
+[35] 8 is sleeping
+[35] 5 is thinking
+[35] 5 has taken a fork
+[35] 2 is eating
+[35] 2 is sleeping
+[35] 6 is sleeping
+[35] 2 is thinking
+[35] 7 is sleeping
+[36] 9 has taken a fork
+[36] 3 is thinking
+[36] 1 is eating
+[36] 1 is sleeping
+[36] 1 is thinking
+[36] 2 has taken a fork
+[36] 8 is thinking
+[36] 5 is eating
+[36] 1 has taken a fork
+[36] 5 is sleeping
+[36] 4 is sleeping
+[36] 10 has taken a fork
+[36] 5 is thinking
+[36] 4 is thinking
+[36] 8 has taken a fork
+[36] 4 has taken a fork
+[36] 7 is thinking
+[36] 5 has taken a fork
+[37] 3 has taken a fork
+[37] 7 has taken a fork
+[37] 2 is eating
+[37] 1 is eating
+[37] 2 is sleeping
+[37] 8 is eating
+[37] 4 is eating
+[37] 8 is sleeping
+[37] 6 is thinking
+[37] 4 is sleeping
+[37] 7 is eating
+[37] 6 has taken a fork
+[37] 7 is sleeping
+[37] 5 is eating
+[37] 7 is thinking
+[38] 3 is eating
+[38] 3 is sleeping
+[38] 3 is thinking
+[38] 7 has taken a fork
+[38] 10 is eating
+[38] 1 is sleeping
+[38] 10 is sleeping
+[38] 2 is thinking
+[38] 10 is thinking
+[38] 10 has taken a fork
+[38] 8 is thinking
+[38] 2 has taken a fork
+[38] 4 is thinking
+[38] 9 is eating
+[38] 9 is sleeping
+[38] 6 is eating
+[38] 6 is sleeping
+[38] 6 is thinking
+[39] 8 has taken a fork
+[39] 7 is eating
+[39] 1 is thinking
+[39] 10 is eating
+[39] 3 has taken a fork
+[39] 2 is eating
+[39] 2 is sleeping
+[39] 2 is thinking
+[39] 4 has taken a fork
+[39] 9 is thinking
+[39] 5 is sleeping
+[39] 2 has taken a fork
+[39] 5 is thinking
+[39] 8 is eating
+[39] 7 is sleeping
+[39] 8 is sleeping
+[39] 5 has taken a fork
+[40] 8 is thinking
+[40] 10 is sleeping
+[40] 7 is thinking
+[40] 10 is thinking
+[40] 7 has taken a fork
+[40] 10 has taken a fork
+[40] 4 is eating
+[40] 9 has taken a fork
+[40] 2 is eating
+[41] 5 is eating
+[41] 6 has taken a fork
+[41] 3 is eating
+[41] 3 is sleeping
+[41] 3 is thinking
+[41] 1 has taken a fork
+[41] 5 is sleeping
+[41] 5 is thinking
+[41] 10 is eating
+[41] 10 is sleeping
+[41] 10 is thinking
+[41] 4 is sleeping
+[41] 4 is thinking
+[41] 4 has taken a fork
+[41] 10 has taken a fork
+[41] 9 is eating
+[41] 9 is sleeping
+[41] 9 is thinking
+[41] 2 is sleeping
+[41] 2 is thinking
+[42] 9 has taken a fork
+[42] 6 is eating
+[42] 6 is sleeping
+[42] 6 is thinking
+[42] 8 has taken a fork
+[42] 1 is eating
+[42] 3 has taken a fork
+[42] 1 is sleeping
+[42] 6 has taken a fork
+[42] 1 is thinking
+[42] 5 has taken a fork
+[42] 1 has taken a fork
+[43] 10 is eating
+[43] 10 is sleeping
+[43] 4 is eating
+[43] 10 is thinking
+[43] 4 is sleeping
+[43] 4 is thinking
+[43] 10 has taken a fork
+[43] 9 is eating
+[43] 9 is sleeping
+[43] 9 is thinking
+[43] 2 has taken a fork
+[43] 8 is eating
+[43] 7 is eating
+[43] 7 is sleeping
+[43] 3 is eating
+[44] 6 is eating
+[44] 1 is eating
+[44] 6 is sleeping
+[44] 6 is thinking
+[44] 6 has taken a fork
+[44] 10 is eating
+[44] 10 is sleeping
+[44] 10 is thinking
+[44] 4 has taken a fork
+[44] 7 is thinking
+[44] 8 is sleeping
+[45] 9 has taken a fork
+[45] 6 is eating
+[45] 6 is sleeping
+[45] 8 is thinking
+[45] 5 is eating
+[45] 1 is sleeping
+[45] 5 is sleeping
+[45] 8 has taken a fork
+[45] 6 is thinking
+[45] 8 is eating
+[45] 10 has taken a fork
+[45] 9 is eating
+[45] 9 is sleeping
+[46] 9 is thinking
+[46] 8 is sleeping
+[46] 8 is thinking
+[46] 1 is thinking
+[46] 7 has taken a fork
+[46] 1 has taken a fork
+[46] 2 is eating
+[46] 2 is sleeping
+[46] 2 is thinking
+[46] 4 is eating
+[46] 6 has taken a fork
+[46] 10 is eating
+[46] 3 is sleeping
+[46] 10 is sleeping
+[46] 3 is thinking
+[47] 2 has taken a fork
+[47] 9 has taken a fork
+[47] 1 is eating
+[47] 5 is thinking
+[47] 3 has taken a fork
+[47] 7 is eating
+[47] 1 is sleeping
+[47] 1 is thinking
+[47] 7 is sleeping
+[47] 7 is thinking
+[47] 10 is thinking
+[47] 2 is eating
+[48] 3 is eating
+[48] 3 is sleeping
+[48] 3 is thinking
+[48] 8 has taken a fork
+[48] 5 has taken a fork
+[47] 1 is sleeping
+[48] 6 is eating
+[48] 4 is sleeping
+[48] 4 is thinking
+[48] 10 has taken a fork
+[48] 2 is sleeping
+[48] 9 is eating
+[48] 9 is sleeping
+[48] 4 has taken a fork
+[49] 8 is eating
+[49] 1 is thinking
+[49] 10 is eating
+[49] 10 is sleeping
+[49] 6 is sleeping
+[49] 10 is thinking
+[49] 1 has taken a fork
+[49] 6 is thinking
+[49] 2 is thinking
+[49] 9 is thinking
+[50] 3 has taken a fork
+[50] 5 is eating
+[50] 9 has taken a fork
+[50] 5 is sleeping
+[50] 5 is thinking
+[50] 7 has taken a fork
+[50] 1 is eating
+[50] 5 has taken a fork
+[50] 1 is sleeping
+[50] 10 has taken a fork
+[50] 4 is eating
+[50] 5 is eating
+[50] 2 has taken a fork
+[50] 3 is eating
+[50] 3 is sleeping
+[51] 4 is sleeping
+[51] 5 is sleeping
+[51] 5 is thinking
+[51] 10 is eating
+[51] 1 is thinking
+[51] 6 has taken a fork
+[51] 3 is thinking
+[51] 8 is sleeping
+[52] 9 is eating
+[52] 8 is thinking
+[52] 9 is sleeping
+[52] 9 is thinking
+[52] 7 is eating
+[52] 8 has taken a fork
+[52] 7 is sleeping
+[52] 7 is thinking
+[53] 10 is sleeping
+[53] 1 has taken a fork
+[53] 7 has taken a fork
+[53] 6 is eating
+[53] 6 is sleeping
+[53] 4 is thinking
+[53] 6 is thinking
+[53] 3 has taken a fork
+[54] 6 has taken a fork
+[54] 4 has taken a fork
+[54] 8 is eating
+[54] 8 is sleeping
+[54] 8 is thinking
+[54] 10 is thinking
+[54] 2 is eating
+[54] 1 is eating
+[54] 8 has taken a fork
+[54] 2 is sleeping
+[54] 1 is sleeping
+[54] 2 is thinking
+[54] 3 is eating
+[54] 5 has taken a fork
+[55] 4 is eating
+[55] 4 is sleeping
+[55] 8 is eating
+[55] 8 is sleeping
+[55] 6 is eating
+[55] 6 is sleeping
+[55] 8 is thinking
+[55] 8 is thinking
+[55] 7 is eating
+[55] 8 has taken a fork
+[55] 2 has taken a fork
+[56] 5 is eating
+[56] 10 has taken a fork
+[56] 3 is sleeping
+[56] 3 is thinking
+[56] 4 is thinking
+[56] 9 has taken a fork
+[56] 3 has taken a fork
+[56] 6 is thinking
+[56] 4 has taken a fork
+[56] 7 is sleeping
+[57] 5 is sleeping
+[57] 5 is thinking
+[57] 10 is eating
+[57] 5 has taken a fork
+[57] 5 is eating
+[57] 3 is eating
+[57] 4 is eating
+[57] 1 is thinking
+[57] 2 is eating
+[57] 7 is thinking
+[57] 2 is sleeping
+[57] 8 is eating
+[58] 6 has taken a fork
+[58] 10 is sleeping
+[58] 10 is thinking
+[58] 5 is sleeping
+[58] 5 is thinking
+[58] 7 has taken a fork
+[58] 9 is eating
+[58] 3 is sleeping
+[58] 4 is sleeping
+[58] 5 has taken a fork
+[58] 4 is thinking
+[58] 6 is eating
+[58] 6 is sleeping
+[59] 6 is thinking
+[59] 8 is sleeping
+[59] 2 is thinking
+[59] 4 has taken a fork
+[59] 8 is thinking
+[59] 2 has taken a fork
+[59] 10 has taken a fork
+[59] 7 is eating
+[59] 7 is sleeping
+[59] 8 has taken a fork
+[59] 9 is sleeping
+[59] 3 is thinking
+[59] 5 is eating
+[59] 5 is sleeping
+[60] 3 has taken a fork
+[60] 1 has taken a fork
+[60] 2 is eating
+[60] 6 has taken a fork
+[60] 10 is eating
+[60] 8 is eating
+[60] 8 is sleeping
+[60] 8 is thinking
+[60] 7 is thinking
+[60] 5 is thinking
+[60] 7 has taken a fork
+[61] 4 is eating
+[61] 2 is sleeping
+[61] 6 is eating
+[61] 1 is eating
+[61] 6 is sleeping
+[61] 2 is thinking
+[61] 6 is thinking
+[61] 2 has taken a fork
+[61] 10 is sleeping
+[61] 9 is thinking
+[61] 10 is thinking
+[61] 6 has taken a fork
+[61] 10 has taken a fork
+[61] 7 is eating
+[61] 8 has taken a fork
+[61] 9 has taken a fork
+[61] 4 is sleeping
+[62] 5 has taken a fork
+[62] 2 is eating
+[62] 6 is eating
+[62] 10 is eating
+[62] 6 is sleeping
+[62] 10 is sleeping
+[62] 6 is thinking
+[62] 10 is thinking
+[62] 6 has taken a fork
+[62] 8 is eating
+[62] 9 is eating
+[62] 8 is sleeping
+[62] 3 is eating
+[62] 10 has taken a fork
+[63] 5 is eating
+[63] 4 is thinking
+[63] 1 is sleeping
+[63] 1 is sleeping
+[63] 1 is thinking
+[63] 2 is sleeping
+[63] 2 is thinking
+[63] 5 is sleeping
+[63] 5 is thinking
+[63] 2 has taken a fork
+[63] 5 has taken a fork
+[63] 9 is sleeping
+[63] 8 is thinking
+[64] 3 is sleeping
+[64] 1 has taken a fork
+[64] 7 is sleeping
+[63] 6 is eating
+[64] 5 is eating
+[64] 5 is sleeping
+[64] 9 is thinking
+[64] 5 is thinking
+[65] 6 is sleeping
+[65] 1 is eating
+[65] 1 is sleeping
+[65] 7 is thinking
+[65] 1 is thinking
+[65] 2 is eating
+[65] 1 has taken a fork
+[65] 10 is eating
+[65] 7 has taken a fork
+[65] 10 is sleeping
+[66] 10 is thinking
+[66] 6 is thinking
+[66] 9 has taken a fork
+[66] 3 is thinking
+[66] 8 has taken a fork
+[66] 4 has taken a fork
+[66] 6 has taken a fork
+[66] 3 has taken a fork
+[66] 1 is eating
+[66] 1 is sleeping
+[66] 1 is thinking
+[66] 7 is eating
+[66] 7 is sleeping
+[66] 7 is thinking
+[66] 9 is eating
+[67] 9 is sleeping
+[67] 9 is thinking
+[66] 10 has taken a fork
+[67] 8 is eating
+[67] 3 is eating
+[67] 3 is sleeping
+[67] 3 is thinking
+[67] 2 is sleeping
+[67] 2 is thinking
+[68] 3 has taken a fork
+[68] 7 has taken a fork
+[68] 2 has taken a fork
+[68] 4 is eating
+[68] 4 is sleeping
+[68] 1 has taken a fork
+[68] 10 is eating
+[68] 9 has taken a fork
+[69] 10 is sleeping
+[69] 10 is thinking
+[69] 3 is eating
+[69] 3 is sleeping
+[70] 3 is thinking
+[70] 10 has taken a fork
+[70] 7 is eating
+[70] 7 is sleeping
+[70] 2 is eating
+[70] 2 is sleeping
+[70] 2 is thinking
+[70] 4 is thinking
+[70] 6 is eating
+[70] 6 is sleeping
+[70] 6 is thinking
+[70] 9 is eating
+[71] 9 is sleeping
+[71] 9 is thinking
+[71] 3 has taken a fork
+[71] 9 has taken a fork
+[71] 7 is thinking
+[71] 9 is eating
+[71] 9 is sleeping
+[71] 1 is eating
+[71] 2 has taken a fork
+[71] 9 is thinking
+[71] 8 is sleeping
+[71] 5 has taken a fork
+[72] 1 is sleeping
+[72] 1 is thinking
+[72] 6 has taken a fork
+[72] 1 has taken a fork
+[72] 3 is eating
+[72] 3 is sleeping
+[72] 10 is eating
+[72] 10 is sleeping
+[72] 9 has taken a fork
+[72] 10 is thinking
+[72] 7 has taken a fork
+[73] 8 is thinking
+[73] 1 is eating
+[73] 4 has taken a fork
+[73] 1 is sleeping
+[73] 8 has taken a fork
+[73] 6 is eating
+[73] 6 is sleeping
+[73] 1 is thinking
+[73] 6 is thinking
+[73] 1 has taken a fork
+[73] 3 is thinking
+[74] 9 is eating
+[74] 9 is sleeping
+[74] 9 is thinking
+[74] 10 has taken a fork
+[74] 2 is eating
+[74] 2 is sleeping
+[74] 9 has taken a fork
+[74] 3 has taken a fork
+[75] 1 is eating
+[75] 1 is sleeping
+[75] 1 is thinking
+[75] 6 has taken a fork
+[75] 7 is eating
+[75] 10 is eating
+[75] 10 is sleeping
+[75] 5 is eating
+[75] 2 is thinking
+[75] 9 is eating
+[75] 4 is eating
+[75] 9 is sleeping
+[75] 2 has taken a fork
+[75] 9 is thinking
+[75] 3 is eating
+[75] 3 is sleeping
+[75] 3 is thinking
+[76] 9 has taken a fork
+[76] 3 has taken a fork
+[76] 1 has taken a fork
+[76] 10 is thinking
+[76] 7 is sleeping
+[76] 5 is sleeping
+[76] 10 has taken a fork
+[76] 2 is eating
+[76] 5 is thinking
+[76] 2 is sleeping
+[76] 2 is thinking
+[76] 8 is eating
+[76] 4 is sleeping
+[76] 5 has taken a fork
+[76] 9 is eating
+[76] 2 has taken a fork
+[77] 9 is sleeping
+[77] 9 is thinking
+[77] 3 is eating
+[77] 6 is eating
+[77] 3 is sleeping
+[77] 6 is sleeping
+[77] 10 is eating
+[77] 10 is sleeping
+[77] 10 is thinking
+[77] 5 is eating
+[77] 10 has taken a fork
+[77] 8 is sleeping
+[77] 5 is sleeping
+[78] 8 is thinking
+[78] 2 is eating
+[78] 2 is sleeping
+[78] 2 is thinking
+[78] 2 has taken a fork
+[78] 1 is eating
+[78] 8 has taken a fork
+[78] 1 is sleeping
+[78] 1 is thinking
+[78] 3 is thinking
+[78] 6 is thinking
+[78] 3 has taken a fork
+[79] 10 is eating
+[79] 10 is sleeping
+[79] 10 is thinking
+[79] 6 has taken a fork
+[79] 5 is thinking
+[79] 8 is eating
+[79] 9 has taken a fork
+[79] 8 is sleeping
+[79] 8 is thinking
+[79] 7 is thinking
+[79] 1 has taken a fork
+[80] 3 is eating
+[80] 3 is sleeping
+[80] 7 has taken a fork
+[80] 6 is eating
+[80] 6 is sleeping
+[80] 6 is thinking
+[80] 4 is thinking
+[80] 10 has taken a fork
+[80] 4 has taken a fork
+[80] 6 has taken a fork
+[80] 5 has taken a fork
+[81] 9 is eating
+[81] 9 is sleeping
+[81] 7 is eating
+[80] 3 is thinking
+[81] 3 has taken a fork
+[81] 10 is eating
+[81] 10 is sleeping
+[81] 4 is eating
+[81] 6 is eating
+[81] 2 is eating
+[81] 4 is sleeping
+[81] 2 is sleeping
+[82] 4 is thinking
+[82] 5 is eating
+[82] 5 is sleeping
+[82] 5 is thinking
+[82] 1 is eating
+[82] 1 is sleeping
+[82] 5 has taken a fork
+[82] 1 is thinking
+[82] 8 has taken a fork
+[82] 6 is sleeping
+[83] 10 is thinking
+[83] 6 is thinking
+[83] 10 has taken a fork
+[83] 2 is thinking
+[83] 9 is thinking
+[83] 9 has taken a fork
+[83] 5 is eating
+[83] 5 is sleeping
+[83] 5 is thinking
+[83] 7 is sleeping
+[83] 6 has taken a fork
+[83] 3 is eating
+[83] 7 is thinking
+[83] 3 is sleeping
+[83] 3 is thinking
+[84] 3 has taken a fork
+[84] 1 has taken a fork
+[84] 7 has taken a fork
+[84] 10 is eating
+[84] 10 is sleeping
+[84] 9 is eating
+[84] 4 has taken a fork
+[84] 9 is sleeping
+[84] 9 is thinking
+[84] 9 has taken a fork
+[84] 6 is eating
+[84] 6 is sleeping
+[84] 8 is eating
+[84] 6 is thinking
+[85] 6 has taken a fork
+[85] 3 is eating
+[85] 3 is sleeping
+[85] 1 is eating
+[85] 7 is eating
+[85] 7 is sleeping
+[85] 1 is sleeping
+[85] 2 has taken a fork
+[85] 1 is thinking
+[85] 4 is eating
+[85] 9 is eating
+[85] 1 has taken a fork
+[85] 9 is sleeping
+[85] 8 is sleeping
+[86] 8 is thinking
+[86] 9 is thinking
+[86] 6 is eating
+[86] 9 has taken a fork
+[86] 6 is sleeping
+[86] 3 is thinking
+[86] 5 has taken a fork
+[86] 1 is eating
+[86] 2 is eating
+[86] 4 is sleeping
+[86] 2 is sleeping
+[86] 1 is sleeping
+[87] 1 is thinking
+[87] 9 is eating
+[87] 9 is sleeping
+[87] 9 is thinking
+[87] 1 has taken a fork
+[87] 6 is thinking
+[87] 9 has taken a fork
+[87] 5 is eating
+[87] 8 has taken a fork
+[87] 10 is thinking
+[87] 7 is thinking
+[88] 7 has taken a fork
+[88] 4 is thinking
+[88] 2 is thinking
+[88] 10 has taken a fork
+[88] 2 has taken a fork
+[88] 1 is eating
+[88] 1 is sleeping
+[88] 1 is thinking
+[88] 9 is eating
+[89] 9 is sleeping
+[89] 1 has taken a fork
+[89] 8 is eating
+[89] 5 is sleeping
+[89] 8 is sleeping
+[89] 5 is thinking
+[89] 7 is eating
+[89] 7 is sleeping
+[89] 7 is thinking
+[89] 5 has taken a fork
+[89] 6 has taken a fork
+[89] 4 has taken a fork
+[89] 10 is eating
+[89] 2 is eating
+[89] 2 is sleeping
+[89] 2 is thinking
+[90] 1 is eating
+[90] 1 is sleeping
+[90] 3 has taken a fork
+[90] 8 is thinking
+[90] 2 has taken a fork
+[90] 5 is eating
+[90] 7 has taken a fork
+[90] 5 is sleeping
+[90] 5 is thinking
+[91] 10 is sleeping
+[91] 5 has taken a fork
+[91] 4 is eating
+[91] 4 is sleeping
+[91] 4 is thinking
+[91] 9 is thinking
+[91] 1 is thinking
+[91] 3 is eating
+[91] 3 is sleeping
+[91] 9 has taken a fork
+[91] 3 is thinking
+[92] 7 is eating
+[92] 7 is sleeping
+[92] 7 is thinking
+[92] 6 is eating
+[92] 6 is sleeping
+[92] 10 is thinking
+[92] 10 has taken a fork
+[92] 4 has taken a fork
+[92] 9 is eating
+[92] 9 is sleeping
+[92] 9 is thinking
+[93] 2 is eating
+[93] 1 has taken a fork
+[93] 8 has taken a fork
+[93] 9 has taken a fork
+[93] 3 has taken a fork
+[93] 5 is eating
+[93] 6 is thinking
+[93] 7 has taken a fork
+[93] 10 is eating
+[93] 10 is sleeping
+[93] 10 is thinking
+[93] 4 is eating
+[94] 4 is sleeping
+[94] 4 is thinking
+[94] 10 has taken a fork
+[94] 2 is sleeping
+[94] 9 is eating
+[94] 2 is thinking
+[94] 9 is sleeping
+[94] 9 is thinking
+[94] 5 is sleeping
+[94] 2 has taken a fork
+[94] 7 is eating
+[94] 7 is sleeping
+[94] 5 is thinking
+[94] 6 has taken a fork
+[94] 7 is thinking
+[95] 8 is eating
+[95] 4 has taken a fork
+[95] 8 is sleeping
+[95] 3 is eating
+[95] 8 is thinking
+[96] 2 is eating
+[96] 2 is sleeping
+[96] 2 is thinking
+[96] 2 has taken a fork
+[96] 7 has taken a fork
+[96] 1 is eating
+[96] 10 is eating
+[96] 4 is eating
+[96] 9 has taken a fork
+[96] 5 has taken a fork
+[97] 4 is sleeping
+[97] 3 is sleeping
+[97] 3 is thinking
+[97] 8 has taken a fork
+[97] 4 is thinking
+[97] 6 is eating
+[97] 4 has taken a fork
+[97] 3 has taken a fork
+[97] 6 is sleeping
+[97] 7 is eating
+[97] 7 is sleeping
+[97] 6 is thinking
+[97] 7 is thinking
+[97] 5 is eating
+[97] 1 is sleeping
+[97] 10 is sleeping
+[97] 7 has taken a fork
+[98] 9 is eating
+[98] 8 is eating
+[98] 8 is sleeping
+[98] 4 is eating
+[98] 3 is eating
+[98] 3 is sleeping
+[98] 2 is eating
+[98] 2 is sleeping
+[98] 3 is thinking
+[98] 4 is sleeping
+[98] 3 has taken a fork
+[99] 4 is thinking
+[99] 1 is thinking
+[99] 10 is thinking
+[99] 5 is sleeping
+[99] 7 is eating
+[99] 5 is thinking
+[99] 8 is thinking
+[99] 8 has taken a fork
+[99] 2 is thinking
+[100] 3 is eating
+[100] 2 has taken a fork
+[100] 3 is sleeping
+[100] 3 is thinking
+[100] 6 has taken a fork
+[100] 3 has taken a fork
+[100] 4 has taken a fork
+[100] 10 has taken a fork
+[100] 7 is sleeping
+[100] 7 is thinking
+[100] 9 is sleeping
+[100] 5 has taken a fork
+[100] 8 is eating
+[100] 8 is sleeping
+[101] 8 is thinking
+[101] 2 is eating
+[101] 2 is sleeping
+[101] 2 is thinking
+[101] 3 is eating
+[101] 2 has taken a fork
+[101] 4 is eating
+[101] 3 is sleeping
+[102] 9 is thinking
+[102] 8 has taken a fork
+[102] 6 is eating
+[102] 6 is sleeping
+[102] 9 has taken a fork
+[102] 2 is eating
+[102] 10 is eating
+[102] 10 is sleeping
+[102] 4 is sleeping
+[102] 3 is thinking
+[103] 5 is eating
+[103] 1 has taken a fork
+[103] 9 is eating
+[103] 8 is eating
+[103] 8 is sleeping
+[103] 8 is thinking
+[103] 8 has taken a fork
+[103] 9 is sleeping
+[103] 9 is thinking
+[104] 6 is thinking
+[104] 9 has taken a fork
+[104] 10 is thinking
+[104] 4 is thinking
+[104] 1 is eating
+[104] 5 is sleeping
+[104] 7 has taken a fork
+[104] 10 has taken a fork
+[105] 8 is eating
+[105] 8 is sleeping
+[105] 8 is thinking
+[105] 8 has taken a fork
+[105] 9 is eating
+[105] 9 is sleeping
+[105] 2 is sleeping
+[105] 9 is thinking
+[105] 2 is thinking
+[105] 1 is sleeping
+[105] 10 is eating
+[105] 4 has taken a fork
+[105] 10 is sleeping
+[105] 1 is thinking
+[106] 7 is eating
+[106] 5 is thinking
+[106] 7 is sleeping
+[107] 6 has taken a fork
+[107] 4 is eating
+[107] 4 is sleeping
+[107] 4 is thinking
+[107] 3 has taken a fork
+[107] 5 has taken a fork
+[107] 2 has taken a fork
+[107] 10 is thinking
+[107] 1 has taken a fork
+[107] 7 is thinking
+[108] 8 is eating
+[108] 10 has taken a fork
+[108] 6 is eating
+[108] 8 is sleeping
+[108] 5 is eating
+[108] 3 is eating
+[109] 1 is eating
+[109] 2 is eating
+[109] 1 is sleeping
+[109] 2 is sleeping
+[109] 2 is thinking
+[109] 7 has taken a fork
+[109] 10 is eating
+[109] 2 has taken a fork
+[109] 10 is sleeping
+[109] 6 is sleeping
+[109] 6 is thinking
+[109] 10 is thinking
+[109] 6 has taken a fork
+[110] 8 is thinking
+[110] 5 is sleeping
+[110] 3 is sleeping
+[110] 10 has taken a fork
+[110] 3 is thinking
+[110] 7 is eating
+[110] 7 is sleeping
+[110] 8 has taken a fork
+[110] 7 is thinking
+[110] 7 has taken a fork
+[110] 2 is eating
+[111] 2 is sleeping
+[111] 10 is eating
+[111] 10 is sleeping
+[111] 2 is thinking
+[111] 6 is eating
+[111] 6 is sleeping
+[111] 6 is thinking
+[111] 9 has taken a fork
+[111] 10 is thinking
+[111] 6 has taken a fork
+[111] 4 has taken a fork
+[111] 10 has taken a fork
+[111] 8 is eating
+[111] 7 is eating
+[111] 1 is thinking
+[111] 7 is sleeping
+[111] 3 has taken a fork
+[111] 7 is thinking
+[112] 2 has taken a fork
+[113] 5 is thinking
+[113] 8 is sleeping
+[113] 6 is eating
+[113] 7 has taken a fork
+[113] 3 is eating
+[113] 3 is sleeping
+[113] 2 is eating
+[113] 2 is sleeping
+[114] 2 is thinking
+[114] 9 is eating
+[114] 10 is eating
+[114] 8 is thinking
+[114] 1 has taken a fork
+[114] 3 is thinking
+[115] 9 is sleeping
+[115] 10 is sleeping
+[115] 9 is thinking
+[115] 2 has taken a fork
+[115] 4 is eating
+[115] 9 has taken a fork
+[116] 8 has taken a fork
+[116] 6 is sleeping
+[116] 2 is eating
+[116] 2 is sleeping
+[116] 2 is thinking
+[116] 9 is eating
+[116] 4 is sleeping
+[116] 9 is sleeping
+[116] 5 has taken a fork
+[116] 2 has taken a fork
+[117] 7 is eating
+[117] 9 is thinking
+[117] 10 is thinking
+[117] 10 has taken a fork
+[117] 8 is eating
+[117] 8 is sleeping
+[117] 6 is thinking
+[117] 8 is thinking
+[117] 6 has taken a fork
+[118] 5 is eating
+[118] 7 is sleeping
+[118] 7 is thinking
+[118] 1 is eating
+[118] 9 has taken a fork
+[118] 1 is sleeping
+[118] 7 has taken a fork
+[118] 6 is eating
+[118] 6 is sleeping
+[118] 6 is thinking
+[119] 6 has taken a fork
+[119] 4 is thinking
+[119] 5 is sleeping
+[119] 2 is eating
+[119] 9 is eating
+[119] 9 is sleeping
+[119] 8 has taken a fork
+[119] 10 is eating
+[119] 9 is thinking
+[120] 10 is sleeping
+[120] 1 is thinking
+[120] 7 is eating
+[120] 6 is eating
+[120] 6 is sleeping
+[120] 6 is thinking
+[120] 3 has taken a fork
+[120] 2 is sleeping
+[121] 2 is thinking
+[121] 6 has taken a fork
+[121] 10 is thinking
+[121] 7 is sleeping
+[121] 9 has taken a fork
+[121] 7 is thinking
+[121] 10 has taken a fork
+[122] 7 has taken a fork
+[122] 3 is eating
+[122] 3 is sleeping
+[122] 3 is thinking
+[122] 5 is thinking
+[122] 8 is eating
+[122] 8 is sleeping
+[122] 8 is thinking
+[122] 6 is eating
+[122] 8 has taken a fork
+[122] 6 is sleeping
+[122] 6 is thinking
+[122] 3 has taken a fork
+[123] 10 is eating
+[123] 10 is sleeping
+[123] 6 has taken a fork
+[123] 10 is thinking
+[123] 7 is eating
+[123] 7 is sleeping
+[123] 7 is thinking
+[123] 4 has taken a fork
+[123] 5 has taken a fork
+[123] 8 is eating
+[123] 8 is sleeping
+[124] 2 has taken a fork
+[124] 8 is thinking
+[124] 3 is eating
+[124] 8 has taken a fork
+[124] 6 is eating
+[124] 3 is sleeping
+[124] 6 is sleeping
+[124] 1 has taken a fork
+[124] 9 is eating
+[124] 6 is thinking
+[124] 6 has taken a fork
+[124] 10 has taken a fork
+[125] 7 has taken a fork
+[125] 2 is eating
+[125] 2 is sleeping
+[125] 2 is thinking
+[125] 8 is eating
+[125] 3 is thinking
+[126] 3 has taken a fork
+[126] 9 is sleeping
+[126] 10 is eating
+[126] 10 is sleeping
+[126] 10 is thinking
+[126] 5 is eating
+[126] 7 is eating
+[126] 5 is sleeping
+[126] 5 is thinking
+[127] 8 is sleeping
+[127] 8 is thinking
+[127] 5 has taken a fork
+[127] 1 is eating
+[127] 1 is sleeping
+[127] 9 is thinking
+[127] 1 is thinking
+[127] 6 is eating
+[127] 1 has taken a fork
+[127] 9 has taken a fork
+[128] 4 is eating
+[128] 4 is sleeping
+[128] 4 is thinking
+[128] 7 is sleeping
+[128] 7 is thinking
+[128] 7 has taken a fork
+[128] 5 is eating
+[128] 5 is sleeping
+[128] 5 is thinking
+[128] 8 has taken a fork
+[128] 3 is eating
+[128] 5 has taken a fork
+[128] 9 is eating
+[128] 3 is sleeping
+[128] 6 is sleeping
+[128] 2 has taken a fork
+[129] 9 is sleeping
+[129] 3 is thinking
+[129] 1 is eating
+[129] 9 is thinking
+[129] 1 is sleeping
+[129] 3 has taken a fork
+[129] 1 is thinking
+[129] 9 has taken a fork
+[129] 7 is eating
+[130] 7 is sleeping
+[130] 7 is thinking
+[130] 5 is eating
+[130] 7 has taken a fork
+[130] 5 is sleeping
+[130] 5 is thinking
+[130] 3 is eating
+[130] 3 is sleeping
+[130] 3 is thinking
+[130] 5 has taken a fork
+[131] 10 has taken a fork
+[131] 4 has taken a fork
+[131] 9 is eating
+[131] 9 is sleeping
+[131] 9 is thinking
+[131] 1 has taken a fork
+[131] 8 is eating
+[131] 7 is eating
+[131] 6 is thinking
+[132] 5 is eating
+[132] 5 is sleeping
+[132] 5 is thinking
+[132] 10 is eating
+[132] 1 is eating
+[132] 8 is sleeping
+[132] 9 has taken a fork
+[133] 2 is eating
+[133] 2 is sleeping
+[133] 2 is thinking
+[133] 2 has taken a fork
+[133] 7 is sleeping
+[133] 7 is thinking
+[133] 3 has taken a fork
+[133] 7 has taken a fork
+[133] 5 has taken a fork
+[133] 10 is sleeping
+[133] 4 is eating
+[134] 4 is sleeping
+[134] 4 is thinking
+[134] 1 is sleeping
+[134] 8 is thinking
+[134] 1 is thinking
+[134] 4 has taken a fork
+[134] 9 is eating
+[134] 9 is sleeping
+[134] 9 is thinking
+[134] 2 is eating
+[134] 2 is sleeping
+[134] 6 has taken a fork
+[134] 2 is thinking
+[134] 9 has taken a fork
+[135] 7 is eating
+[135] 2 has taken a fork
+[135] 5 is eating
+[135] 5 is sleeping
+[135] 10 is thinking
+[135] 10 has taken a fork
+[135] 4 is eating
+[135] 4 is sleeping
+[135] 4 is thinking
+[136] 1 has taken a fork
+[136] 8 has taken a fork
+[136] 6 is eating
+[136] 3 is eating
+[136] 7 is sleeping
+[136] 3 is sleeping
+[136] 7 is thinking
+[136] 5 is thinking
+[137] 10 is eating
+[137] 5 has taken a fork
+[137] 10 is sleeping
+[137] 10 is thinking
+[137] 4 has taken a fork
+[137] 10 has taken a fork
+[137] 6 is sleeping
+[137] 6 is thinking
+[137] 9 is eating
+[138] 9 is sleeping
+[138] 9 is thinking
+[138] 2 is eating
+[138] 6 has taken a fork
+[138] 3 is thinking
+[138] 3 has taken a fork
+[138] 9 has taken a fork
+[138] 7 has taken a fork
+[139] 1 is eating
+[139] 8 is eating
+[139] 1 is sleeping
+[139] 4 is eating
+[139] 1 is thinking
+[139] 10 is eating
+[139] 10 is sleeping
+[139] 10 is thinking
+[139] 10 has taken a fork
+[139] 6 is eating
+[139] 6 is sleeping
+[139] 6 is thinking
+[139] 2 is sleeping
+[139] 2 is thinking
+[139] 6 has taken a fork
+[140] 2 has taken a fork
+[140] 3 is eating
+[140] 9 is eating
+[140] 9 is sleeping
+[140] 5 is eating
+[140] 5 is sleeping
+[140] 5 is thinking
+[140] 8 is sleeping
+[140] 1 has taken a fork
+[140] 5 has taken a fork
+[141] 10 is eating
+[141] 10 is sleeping
+[141] 10 is thinking
+[141] 2 is eating
+[141] 10 has taken a fork
+[141] 6 is eating
+[141] 2 is sleeping
+[141] 6 is sleeping
+[141] 2 is thinking
+[141] 2 has taken a fork
+[141] 3 is sleeping
+[141] 9 is thinking
+[142] 7 is eating
+[142] 7 is sleeping
+[142] 9 has taken a fork
+[142] 8 is thinking
+[142] 1 is eating
+[142] 1 is sleeping
+[142] 8 has taken a fork
+[142] 1 is thinking
+[142] 4 is sleeping
+[142] 4 is thinking
+[142] 4 has taken a fork
+[142] 1 has taken a fork
+[143] 10 is eating
+[143] 10 is sleeping
+[143] 10 is thinking
+[143] 6 is thinking
+[143] 6 has taken a fork
+[143] 3 is thinking
+[143] 7 is thinking
+[144] 9 is eating
+[144] 9 is sleeping
+[144] 7 has taken a fork
+[144] 5 is eating
+[144] 8 is eating
+[144] 5 is sleeping
+[144] 8 is sleeping
+[144] 1 is eating
+[144] 1 is sleeping
+[144] 1 is thinking
+[144] 1 has taken a fork
+[144] 6 is eating
+[144] 6 is sleeping
+[145] 6 is thinking
+[145] 10 has taken a fork
+[145] 3 has taken a fork
+[145] 9 is thinking
+[145] 6 has taken a fork
+[146] 9 has taken a fork
+[146] 4 is eating
+[146] 4 is sleeping
+[146] 1 is eating
+[146] 1 is sleeping
+[146] 1 is thinking
+[146] 2 is eating
+[146] 2 is sleeping
+[146] 1 has taken a fork
+[146] 10 is eating
+[146] 10 is sleeping
+[146] 10 is thinking
+[146] 7 is eating
+[147] 3 is eating
+[147] 6 is eating
+[147] 6 is sleeping
+[147] 7 is sleeping
+[147] 5 is thinking
+[147] 8 is thinking
+[147] 4 is thinking
+[147] 9 is eating
+[147] 9 is sleeping
+[148] 9 is thinking
+[148] 9 has taken a fork
+[148] 1 is eating
+[148] 1 is sleeping
+[148] 1 is thinking
+[148] 2 is thinking
+[148] 1 has taken a fork
+[148] 10 has taken a fork
+[148] 3 is sleeping
+[149] 6 is thinking
+[149] 7 is thinking
+[149] 6 has taken a fork
+[149] 5 has taken a fork
+[149] 2 has taken a fork
+[149] 9 is eating
+[149] 9 is sleeping
+[149] 9 is thinking
+[149] 1 is eating
+[150] 1 is sleeping
+[150] 1 is thinking
+[150] 1 has taken a fork
+[150] 10 is eating
+[150] 6 is eating
+[150] 6 is sleeping
+[150] 6 is thinking
+[149] 8 has taken a fork
+[150] 2 is eating
+[151] 2 is sleeping
+[151] 10 is sleeping
+[151] 3 is thinking
+[151] 1 is eating
+[151] 1 is sleeping
+[151] 1 is thinking
+[152] 7 has taken a fork
+[152] 9 has taken a fork
+[152] 5 is eating
+[152] 1 has taken a fork
+[152] 4 has taken a fork
+[152] 8 is eating
+[152] 2 is thinking
+[152] 8 is sleeping
+[153] 8 is thinking
+[153] 8 has taken a fork
+[153] 2 has taken a fork
+[153] 1 is eating
+[153] 6 has taken a fork
+[153] 1 is sleeping
+[153] 9 is eating
+[153] 5 is sleeping
+[153] 1 is thinking
+[154] 9 is sleeping
+[154] 9 is thinking
+[154] 9 has taken a fork
+[154] 2 is eating
+[154] 2 is sleeping
+[154] 10 is thinking
+[155] 2 is thinking
+[155] 3 has taken a fork
+[155] 10 has taken a fork
+[155] 5 is thinking
+[155] 4 is eating
+[155] 4 is sleeping
+[155] 5 has taken a fork
+[156] 4 is thinking
+[156] 9 is eating
+[156] 9 is sleeping
+[156] 9 is thinking
+[156] 8 is eating
+[156] 8 is sleeping
+[156] 9 has taken a fork
+[156] 8 is thinking
+[157] 6 is eating
+[157] 7 is eating
+[157] 2 has taken a fork
+[157] 8 has taken a fork
+[157] 5 is eating
+[157] 5 is sleeping
+[157] 4 has taken a fork
+[158] 9 is eating
+[158] 9 is sleeping
+[158] 3 is eating
+[158] 10 is eating
+[158] 3 is sleeping
+[158] 7 is sleeping
+[158] 7 is thinking
+[158] 6 is sleeping
+[159] 2 is eating
+[159] 5 is thinking
+[159] 4 is eating
+[159] 4 is sleeping
+[159] 4 is thinking
+[159] 4 has taken a fork
+[160] 9 is thinking
+[160] 3 is thinking
+[160] 10 is sleeping
+[160] 9 has taken a fork
+[160] 10 is thinking
+[160] 10 has taken a fork
+[160] 6 is thinking
+[160] 1 has taken a fork
+[160] 2 is sleeping
+[160] 8 is eating
+[160] 7 has taken a fork
+[160] 8 is sleeping
+[160] 8 is thinking
+[161] 4 is eating
+[161] 8 has taken a fork
+[161] 4 is sleeping
+[161] 4 is thinking
+[161] 4 has taken a fork
+[161] 9 is eating
+[161] 9 is sleeping
+[161] 9 is thinking
+[162] 5 has taken a fork
+[162] 3 has taken a fork
+[162] 10 is eating
+[162] 10 is sleeping
+[162] 2 is thinking
+[162] 8 is eating
+[162] 8 is sleeping
+[162] 8 is thinking
+[162] 2 has taken a fork
+[163] 8 has taken a fork
+[163] 4 is eating
+[163] 4 is sleeping
+[163] 4 is thinking
+[163] 1 is eating
+[163] 7 is eating
+[163] 10 is thinking
+[164] 2 is eating
+[164] 10 has taken a fork
+[164] 2 is sleeping
+[164] 8 is eating
+[164] 2 is thinking
+[164] 2 has taken a fork
+[164] 8 is sleeping
+[164] 8 is thinking
+[165] 9 has taken a fork
+[165] 3 is eating
+[165] 5 is eating
+[165] 8 has taken a fork
+[165] 3 is sleeping
+[165] 5 is sleeping
+[165] 1 is sleeping
+[165] 1 is thinking
+[165] 6 has taken a fork
+[165] 10 is eating
+[165] 7 is sleeping
+[165] 7 is thinking
+[165] 2 is eating
+[166] 2 is sleeping
+[166] 2 is thinking
+[166] 7 has taken a fork
+[166] 9 is eating
+[166] 3 is thinking
+[167] 6 is eating
+[167] 1 has taken a fork
+[167] 10 is sleeping
+[167] 7 is eating
+[167] 7 is sleeping
+[167] 7 is thinking
+[167] 7 has taken a fork
+[168] 8 is eating
+[168] 8 is sleeping
+[168] 9 is sleeping
+[168] 8 is thinking
+[168] 5 is thinking
+[168] 8 has taken a fork
+[168] 6 is sleeping
+[168] 2 has taken a fork
+[168] 6 is thinking
+[168] 1 is eating
+[168] 10 is thinking
+[169] 7 is eating
+[169] 7 is eating
+[169] 7 is sleeping
+[169] 7 is thinking
+[169] 9 is thinking
+[169] 8 is eating
+[169] 7 has taken a fork
+[169] 8 is sleeping
+[169] 9 has taken a fork
+[169] 8 is thinking
+[169] 4 has taken a fork
+[170] 3 has taken a fork
+[170] 2 is eating
+[170] 1 is sleeping
+[170] 1 is thinking
+[170] 2 is sleeping
+[170] 2 is thinking
+[170] 1 has taken a fork
+[170] 10 has taken a fork
+[171] 2 has taken a fork
+[171] 9 is eating
+[171] 9 is sleeping
+[171] 7 is eating
+[171] 9 is thinking
+[172] 6 has taken a fork
+[172] 1 is eating
+[172] 1 is sleeping
+[172] 1 is thinking
+[172] 10 is eating
+[172] 10 is sleeping
+[172] 10 is thinking
+[172] 2 is eating
+[172] 2 is sleeping
+[172] 2 is thinking
+[173] 7 is sleeping
+[173] 4 is eating
+[173] 9 has taken a fork
+[173] 5 has taken a fork
+[173] 8 has taken a fork
+[173] 3 is eating
+[173] 6 is eating
+[173] 6 is sleeping
+[173] 6 is thinking
+[173] 1 has taken a fork
+[174] 7 is thinking
+[174] 6 has taken a fork
+[175] 4 is sleeping
+[175] 7 has taken a fork
+[175] 8 is eating
+[175] 1 is eating
+[175] 1 is sleeping
+[175] 8 is sleeping
+[175] 8 is thinking
+[176] 10 has taken a fork
+[176] 8 has taken a fork
+[176] 6 is eating
+[176] 9 is eating
+[176] 2 has taken a fork
+[176] 9 is sleeping
+[176] 7 is eating
+[176] 7 is sleeping
+[177] 9 is thinking
+[177] 7 is thinking
+[177] 5 is eating
+[177] 3 is sleeping
+[177] 4 is thinking
+[177] 8 is eating
+[177] 1 is thinking
+[177] 8 is sleeping
+[177] 1 has taken a fork
+[177] 8 is thinking
+[177] 10 is eating
+[177] 10 is sleeping
+[177] 10 is thinking
+[178] 10 has taken a fork
+[178] 2 is eating
+[178] 2 is sleeping
+[178] 2 is thinking
+[178] 5 is sleeping
+[178] 7 has taken a fork
+[179] 4 has taken a fork
+[179] 1 is eating
+[179] 1 is sleeping
+[179] 1 is thinking
+[179] 10 is eating
+[179] 1 has taken a fork
+[179] 8 has taken a fork
+[179] 10 is sleeping
+[179] 6 is sleeping
+[180] 6 is thinking
+[180] 5 is thinking
+[180] 9 has taken a fork
+[180] 3 is thinking
+[180] 5 has taken a fork
+[180] 4 is eating
+[180] 4 is sleeping
+[181] 8 is eating
+[181] 8 is sleeping
+[181] 8 is thinking
+[181] 1 is eating
+[181] 1 is sleeping
+[181] 1 is thinking
+[181] 8 has taken a fork
+[181] 9 is eating
+[182] 9 is sleeping
+[182] 9 is thinking
+[182] 6 has taken a fork
+[182] 2 has taken a fork
+[182] 9 has taken a fork
+[182] 4 is thinking
+[182] 4 has taken a fork
+[183] 8 is eating
+[183] 8 is sleeping
+[183] 8 is thinking
+[183] 8 has taken a fork
+[184] 2 is eating
+[184] 2 is sleeping
+[184] 2 is thinking
+[184] 2 has taken a fork
+[184] 4 is eating
+[184] 4 is sleeping
+[184] 4 is thinking
+[185] 10 is thinking
+[185] 4 has taken a fork
+[185] 1 has taken a fork
+[185] 5 is eating
+[185] 5 is sleeping
+[185] 6 is eating
+[185] 7 is eating
+[185] 9 is eating
+[186] 2 is eating
+[186] 2 is sleeping
+[186] 2 is thinking
+[186] 2 has taken a fork
+[186] 1 is eating
+[186] 1 is sleeping
+[186] 1 is thinking
+[187] 1 has taken a fork
+[187] 8 is eating
+[187] 8 is sleeping
+[187] 8 is thinking
+[187] 3 has taken a fork
+[187] 5 is thinking
+[187] 7 is sleeping
+[187] 9 is sleeping
+[187] 10 has taken a fork
+[187] 9 is thinking
+[187] 5 has taken a fork
+[188] 2 is eating
+[188] 2 is sleeping
+[188] 9 has taken a fork
+[188] 2 is thinking
+[188] 2 has taken a fork
+[188] 4 is eating
+[188] 4 is sleeping
+[188] 4 is thinking
+[188] 4 has taken a fork
+[188] 1 is eating
+[188] 1 is sleeping
+[189] 1 is thinking
+[189] 6 is sleeping
+[189] 7 is thinking
+[189] 9 is eating
+[189] 8 has taken a fork
+[189] 1 has taken a fork
+[190] 2 is eating
+[190] 2 is sleeping
+[190] 2 is thinking
+[190] 4 is eating
+[190] 2 has taken a fork
+[190] 6 is thinking
+[190] 3 is eating
+[191] 6 has taken a fork
+[191] 10 is eating
+[191] 10 is sleeping
+[191] 5 is eating
+[191] 5 is sleeping
+[191] 9 is sleeping
+[191] 8 is eating
+[191] 8 is sleeping
+[191] 8 is thinking
+[191] 9 is thinking
+[191] 8 has taken a fork
+[192] 4 is sleeping
+[192] 9 has taken a fork
+[192] 2 is eating
+[192] 4 is thinking
+[192] 2 is sleeping
+[192] 4 has taken a fork
+[192] 3 is sleeping
+[193] 6 is eating
+[193] 3 is thinking
+[193] 6 is sleeping
+[193] 7 has taken a fork
+[193] 10 is thinking
+[193] 5 is thinking
+[193] 10 has taken a fork
+[193] 8 is eating
+[193] 8 is sleeping
+[193] 8 is thinking
+[194] 8 has taken a fork
+[194] 9 is eating
+[194] 9 is sleeping
+[194] 9 is thinking
+[194] 4 is eating
+[194] 4 is sleeping
+[194] 2 is thinking
+[194] 4 is thinking
+[194] 9 has taken a fork
+[195] 7 is eating
+[195] 2 has taken a fork
+[195] 1 is eating
+[195] 1 is sleeping
+[195] 1 is thinking
+[195] 1 has taken a fork
+[195] 8 is eating
+[195] 8 is sleeping
+[195] 8 is thinking
+[196] 8 has taken a fork
+[196] 9 is eating
+[196] 9 is sleeping
+[196] 9 is thinking
+[196] 4 has taken a fork
+[196] 6 is thinking
+[196] 3 has taken a fork
+[196] 7 is sleeping
+[196] 2 is eating
+[197] 5 has taken a fork
+[197] 6 has taken a fork
+[197] 1 is eating
+[197] 1 is sleeping
+[197] 1 is thinking
+[197] 1 has taken a fork
+[197] 8 is eating
+[197] 8 is sleeping
+[197] 8 is thinking
+[198] 9 has taken a fork
+[198] 4 is eating
+[198] 3 is eating
+[198] 3 is sleeping
+[198] 6 is eating
+[198] 2 is sleeping
+[198] 2 is thinking
+[198] 10 is eating
+[199] 7 is thinking
+[199] 6 is sleeping
+[199] 6 is thinking
+[199] 5 is eating
+[199] 5 is sleeping
+[199] 5 is thinking
+[199] 6 has taken a fork
+[199] 2 has taken a fork
+[199] 5 has taken a fork
+[199] 1 is eating
+[199] 1 is sleeping
+[199] 1 is thinking
+[200] 1 has taken a fork
+[200] 9 is eating
+[200] 9 is sleeping
+[200] 3 is thinking
+[200] 10 is sleeping
+[200] 3 has taken a fork
+[201] 2 is eating
+[201] 2 is sleeping
+[201] 2 is thinking
+[201] 6 is eating
+[201] 2 has taken a fork
+[201] 5 is eating
+[201] 5 is sleeping
+[201] 5 is thinking
+[201] 5 has taken a fork
+[201] 1 is eating
+[201] 1 is sleeping
+[202] 1 is thinking
+[202] 4 is sleeping
+[202] 1 has taken a fork
+[202] 9 is thinking
+[202] 4 is thinking
+[202] 8 has taken a fork
+[202] 9 has taken a fork
+[202] 3 is eating
+[202] 3 is sleeping
+[202] 3 is thinking
+[202] 10 is thinking
+[202] 7 has taken a fork
+[203] 2 is eating
+[203] 2 is sleeping
+[203] 2 is thinking
+[203] 6 is sleeping
+[203] 6 is thinking
+[203] 5 is eating
+[203] 5 is sleeping
+[203] 1 is eating
+[203] 9 is eating
+[203] 9 is sleeping
+[203] 9 is thinking
+[204] 8 is eating
+[204] 7 is eating
+[1078] 3 has taken a fork
+[1078] 4 has taken a fork
+[1079] 3 is eating
+[1079] 4 is eating
+[1079] 1 is sleeping
+[1079] 3 is sleeping
+[1079] 4 is sleeping
+[1079] 3 is thinking
+[1079] 5 is thinking
+[1079] 7 is sleeping
+[1079] 4 is thinking
+[1079] 6 has taken a fork
+[1080] 1 is thinking
+[1080] 3 has taken a fork
+[1080] 4 has taken a fork
+[1080] 7 is thinking
+[1080] 6 is eating
+[1080] 8 is sleeping
+[1080] 4 is eating
+[1080] 3 is eating
+[1080] 6 is sleeping
+[1080] 4 is sleeping
+[1081] 3 is sleeping
+[1081] 4 is thinking
+[1081] 4 has taken a fork
+[1081] 3 is thinking
+[1081] 4 is eating
+[1081] 4 is sleeping
+[1081] 3 has taken a fork
+[1081] 4 is thinking
+[1081] 3 is eating
+[1081] 3 is sleeping
+[1082] 3 is thinking
+[1082] 3 has taken a fork
+[1082] 4 has taken a fork
+[1082] 3 is eating
+[1082] 4 is eating
+[1082] 4 is sleeping
+[1082] 3 is sleeping
+[1082] 3 is thinking
+[1083] 3 has taken a fork
+[1083] 4 is thinking
+[1083] 3 is eating
+[1084] 4 has taken a fork
+[1084] 4 is eating
+[1084] 3 is sleeping
+[1085] 3 is thinking
+[1085] 3 has taken a fork
+[1087] 4 is sleeping
+[1088] 3 is eating
+[1088] 4 is thinking
+[1089] 4 has taken a fork
+[1090] 3 is sleeping
+[1106] 4 is eating
+[1138] 4 is sleeping
+[1171] 4 is thinking
+[1180] 3 is thinking
+[1183] 3 has taken a fork
+[1203] 4 has taken a fork
+[1203] 2 has taken a fork
+[1204] 2 is eating
+[1204] 2 is sleeping
+[1204] 2 is thinking
+[1204] 2 has taken a fork
+[1204] 2 is eating
+[1204] 2 is sleeping
+[1204] 2 is thinking
+[1204] 2 has taken a fork
+[1204] 2 is eating
+[1205] 2 is sleeping
+[1205] 2 is thinking
+[

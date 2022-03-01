@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/01 12:15:33 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/01 16:41:36 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,14 @@ typedef enum	e_status
 typedef struct  s_philo
 {
     int id;
-    int status;
-    long create_at;
     int eat;
     int sleep;
+    int die;
     int n_eats;
+    int status;
+    long create_at;
+    long start;
+    long end;
     pthread_mutex_t	message;
     pthread_mutex_t	fork;
     struct s_philo *next;
@@ -68,5 +71,7 @@ void philo_take_fork(t_philo *philo, int i);
 void philo_eat(t_philo *philo, int i);
 void philo_sleeping(t_philo *philo, int i);
 void philo_thinking(t_philo *philo, int i);
+//
+int philo_dead(t_philo *philo , int i);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:43:08 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/01 11:55:15 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/01 16:56:43 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,12 @@ void	create_philo(t_node *node, int index)
 	new			= malloc(sizeof(t_philo));
 	new->id		= index;
 	new->create_at = get_time();
+	new->start = 0;
+	new->end = 0;
 	new->eat	= node->eat;
 	new->sleep	= node->slpeep;
 	new->n_eats	= node->n_eats;
+	new->die	= node->die;
 	pthread_mutex_init(&new->fork, NULL);
 	pthread_mutex_init(&new->message, NULL);
 	new->status = 0;

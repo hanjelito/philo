@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:13:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/01 11:52:03 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/01 12:21:04 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int main(int argc, char **argv)
     int i;
     int n_philos;
 
-    if(argc >= 4 && argc <= 5)
+    if(argc >= 5 && argc <= 6)
     {
         n_philos = ft_atoi(argv[1]);
         i = 0;

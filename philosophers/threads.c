@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/01 12:04:24 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/01 18:13:20 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,16 +24,15 @@ void *threads(void *philo_current)
     {
         pthread_mutex_lock(&philo->prev->fork);
         pthread_mutex_lock(&philo->fork);
+        if(philo_dead(philo, i) == 1)
+            break ;
         philo_take_fork(philo, i);
         philo_eat(philo, i);
+        
         pthread_mutex_unlock(&philo->prev->fork);
         pthread_mutex_unlock(&philo->fork);
         if((i >=  philo->n_eats) && (philo->n_eats > 0))
-        {
-            philo->status = DEAD;
-            printf("--- ultima comida %d\n", philo->id);
             break ;
-        }
         //
         pthread_mutex_lock(&philo->message);
         philo_sleeping(philo, i);
@@ -49,40 +48,51 @@ void *threads(void *philo_current)
 
 void philo_take_fork(t_philo *philo, int i)
 {
-    if(philo->status == TAKE_FORK)
-    {
-        printf("[%ld] %d  has taken a fork 🍴(%d)\n", timeline(philo->create_at), philo->id, i);
-        philo->status = EATING;
-    }
+    philo->start = get_time();
+    printf("[%ld] %d  has taken a fork 🍴(%d)\n", timeline(philo->create_at), philo->id, i);
+    philo->status = TAKE_FORK;
 }
 
 void philo_eat(t_philo *philo , int i)
 {
-    if(philo->status == EATING)
-    {
-        printf("[%ld] %d  is eating 🍝(%d)\n", timeline(philo->create_at), philo->id, i);
-        philo->status = SLEEPING;
-        usleep_time(200);
-    }
+    printf("[%ld] %d  is eating 🍝(%d)\n", timeline(philo->create_at), philo->id, i);
+    philo->status = EATING;
+    usleep_time(philo->eat);
 }
 
 void philo_sleeping(t_philo *philo , int i)
 {
-    if(philo->status == SLEEPING)
-    {
-        printf("[%ld] %d  is sleeping 😴(%d)\n", timeline(philo->create_at), philo->id, i);
-        philo->status = THINKING;
-        usleep_time(300);
-    }
-    
+    printf("[%ld] %d  is sleeping 😴(%d)\n", timeline(philo->create_at), philo->id, i);
+    philo->status = SLEEPING;
+    usleep_time(philo->sleep);
 }
 
 void philo_thinking(t_philo *philo , int i)
 {
+    philo->end = get_time();
+    printf("[%ld] %d  is thinking 🤯(%d)\n", timeline(philo->create_at), philo->id, i);
+    philo->status = THINKING;
+}
+
+int philo_dead(t_philo *philo , int i)
+{
     if(philo->status == THINKING)
     {
-        printf("[%ld] %d  is thinking 🤯(%d)\n", timeline(philo->create_at), philo->id, i);
-        philo->status = TAKE_FORK;
-        usleep_time(300);
+        int think;
+        
+        think = (int)(philo->end - philo->start);
+        usleep_time(think);
+        if (think >= philo->die)
+        {
+            printf("[%ld] %d  dead 🤯\n", timeline(philo->create_at), philo->id);
+            philo->status = DEAD;
+            return (1);
+        }
+        else
+        {
+            philo->start = 0;
+            philo->end = 0;
+        }
     }
+    return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/01 18:13:20 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/02 16:50:17 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,7 @@ void *threads(void *philo_current)
     {
         pthread_mutex_lock(&philo->prev->fork);
         pthread_mutex_lock(&philo->fork);
-        if(philo_dead(philo, i) == 1)
-            break ;
+        philo_dead(philo, i);
         philo_take_fork(philo, i);
         philo_eat(philo, i);
         
@@ -69,30 +68,26 @@ void philo_sleeping(t_philo *philo , int i)
 
 void philo_thinking(t_philo *philo , int i)
 {
-    philo->end = get_time();
     printf("[%ld] %d  is thinking 🤯(%d)\n", timeline(philo->create_at), philo->id, i);
     philo->status = THINKING;
 }
 
-int philo_dead(t_philo *philo , int i)
+void philo_dead(t_philo *philo , int i)
 {
     if(philo->status == THINKING)
     {
         int think;
         
+        philo->end = get_time();
         think = (int)(philo->end - philo->start);
+        printf("%d (%d)\n", think, philo->id);
         usleep_time(think);
         if (think >= philo->die)
         {
             printf("[%ld] %d  dead 🤯\n", timeline(philo->create_at), philo->id);
             philo->status = DEAD;
-            return (1);
         }
-        else
-        {
-            philo->start = 0;
-            philo->end = 0;
-        }
+        philo->start = 0;
+        philo->end = 0;
     }
-    return (0);
 }

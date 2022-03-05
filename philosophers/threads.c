@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 09:48:32 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/05 10:08:57 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,13 @@ void *threads(void *philo_current)
         pthread_mutex_lock(&philo->fork);
         philo->status = TAKE_FORK;
         printf("[%ld] %d  has taken a fork 🍴(%d)\n", timeline(philo->create_at), philo->id, i);
+        usleep_time(200);
         pthread_mutex_unlock(&philo->prev->fork);
         pthread_mutex_unlock(&philo->fork);
-        sleep(1);
         //
         pthread_mutex_lock(&philo->message);
         philo->status = EATING;
-        sleep(1);
+        usleep_time(200);
         printf("[%ld] %d  has taken a fork 🍴(%d)\n", timeline(philo->create_at), philo->id, i);
         pthread_mutex_unlock(&philo->message);
         ++i;

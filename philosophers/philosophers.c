@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 10:00:23 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/05 10:07:39 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ t_boolean run_philos(t_philo *philo)
 	{ 
         if(!create_threads(philo, TRUE))
             return (FALSE);
-        sleep(1);
+        usleep_time(60);
         if(!create_threads(philo, FALSE))
             return (FALSE);
         

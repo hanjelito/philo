@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 10:07:39 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/05 17:54:08 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ static t_boolean create_threads(t_philo *philo, t_boolean bool)
 		i = 1;
 	else
         philo_current = philo->first->next;
-    // ojo
     while(i <= philo_current->node->n_philos)
     {
         if(pthread_create(&philo_current->thread, NULL, &threads, (void *)philo_current))
@@ -49,12 +48,10 @@ static t_boolean create_threads(t_philo *philo, t_boolean bool)
         if(i <= philo_current->node->n_philos)
             philo_current = philo_current->next->next;
     }
-    // if (pthread_join(philo_current->thread, NULL))
-    //     return (FALSE);
     return (TRUE);
 }
 
-t_boolean end_philos(t_philo *philo)
+t_boolean join_philos(t_philo *philo)
 {
     int i;
     t_philo *philo_current;
@@ -64,7 +61,10 @@ t_boolean end_philos(t_philo *philo)
     while(i <= philo_current->node->n_philos)
     {
         if (pthread_join(philo_current->thread, NULL))
+        {
+            write(1, "error\n", 6);
             return (FALSE);
+        }
         philo_current = philo_current->next;
         i ++;
     }
@@ -77,12 +77,30 @@ t_boolean run_philos(t_philo *philo)
 	{ 
         if(!create_threads(philo, TRUE))
             return (FALSE);
-        usleep_time(60);
+        usleep(1);
         if(!create_threads(philo, FALSE))
             return (FALSE);
         
     }else {
 		printf("\n la lista se encuentra vacia\n\n");
 	}
+    return (TRUE);
+}
+t_boolean philo_activity(t_philo *philo)
+{
+    int i;
+    t_philo *philo_current;
+    
+	philo_current = malloc(sizeof(t_philo));
+    philo_current = philo->first;
+     while(1)
+    {
+        if(philo_current->status == DEAD)
+        {
+            printf("%lu %d died\n", timeline(philo->create_at), philo->id);
+            return (FALSE);
+        }
+        philo_current = philo_current->next;
+    }
     return (TRUE);
 }

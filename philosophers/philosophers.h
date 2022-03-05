@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 09:59:50 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/05 17:55:26 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,8 +51,8 @@ typedef struct  s_philo
     long start;
     long end;
     struct s_node	*node;
-    pthread_mutex_t	message;
     pthread_t thread;
+    pthread_mutex_t	message;
     pthread_mutex_t	fork;
     struct s_philo *next;
     struct s_philo *prev;
@@ -77,9 +77,11 @@ void    *threads(void *philo_current);
 void		print_message(t_philo *philo, int i);
 void		print_eat(t_philo *philo, int i);
 t_boolean	run_philos(t_philo *philo);
-t_boolean	end_philos(t_philo *philo);
+t_boolean	join_philos(t_philo *philo);
+t_boolean   philo_activity(t_philo *philo);
 void    init_node(t_node *node, char **argv);
 //
+void    deat_philo(t_philo *philo);
 
 //
 

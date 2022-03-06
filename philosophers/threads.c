@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 18:02:48 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/07 00:30:08 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static void write_status(t_philo *philo)
     else if (philo->status == SLEEPING)
         printf("%lu %d is sleeping\n", timeline(philo->create_at), philo->id);
     else if (philo->status == THINKING)
-        printf("%lu %d is thinking\n", timeline(philo->create_at), philo->id);
+        printf("%lu %d is thinking (%ld)\n", timeline(philo->create_at), philo->id, philo->t_die - philo->start);
     pthread_mutex_unlock(&philo->message);
 }
 
@@ -31,13 +31,15 @@ static void philo_eat(t_philo *philo)
 {
     pthread_mutex_lock(&philo->prev->fork);
     philo->status = TAKE_FORK;
-    write_status(philo);
     if(philo->id == philo->prev->id)
     {
         pthread_mutex_unlock(&philo->prev->fork);
         return ;
     }
+    write_status(philo);
+    philo->start = get_time();
     pthread_mutex_lock(&philo->fork);
+    write_status(philo);
     philo->status = EATING;
     write_status(philo);
     usleep_time(philo->eat);
@@ -59,26 +61,23 @@ static void philo_think(t_philo *philo)
 }
 
 void deat_philo(t_philo *philo)
-{
-    long time_end; 
-    long dead;
-    
-    time_end = get_time();
-    dead = (philo->create_at - time_end);
-    printf("%ld muerto\n", philo->create_at);
-    if(dead > philo->die)
+{   
+    int t_dead;
+
+    philo->t_die = get_time();
+    t_dead  = philo->t_die - philo->start;
+    if(philo->die < t_dead)
     {
         philo->status = DEAD;
+        philo->dead = t_dead;
     }
 }
 
 void *threads(void *philo_current)
 {
-    int i;
     t_philo *philo;
 
     philo = (t_philo *)philo_current;
-    i = 1;
     while(philo->n_eats == philo->node->n_eats)
     {
         if(philo->status == RUN || philo->status == THINKING)

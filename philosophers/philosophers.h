@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 17:55:26 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/07 00:33:36 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,8 @@ typedef struct  s_philo
     int status;
     long create_at;
     long start;
-    long end;
+    long t_die;
+    long dead;
     struct s_node	*node;
     pthread_t thread;
     pthread_mutex_t	message;
@@ -68,6 +69,8 @@ typedef struct  s_node
     int slpeep;
     int think;
     int n_eats;
+    int id_dead;
+    long time_dead;
     t_philo *philo;
 }               t_node;
 
@@ -78,7 +81,7 @@ void		print_message(t_philo *philo, int i);
 void		print_eat(t_philo *philo, int i);
 t_boolean	run_philos(t_philo *philo);
 t_boolean	join_philos(t_philo *philo);
-t_boolean   philo_activity(t_philo *philo);
+void philo_activity(t_philo *philo);
 void    init_node(t_node *node, char **argv);
 //
 void    deat_philo(t_philo *philo);

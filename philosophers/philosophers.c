@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 17:54:08 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/07 00:33:30 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,22 +71,7 @@ t_boolean join_philos(t_philo *philo)
     return (TRUE);
 }
 
-t_boolean run_philos(t_philo *philo)
-{
-    if(philo->first != NULL)
-	{ 
-        if(!create_threads(philo, TRUE))
-            return (FALSE);
-        usleep(1);
-        if(!create_threads(philo, FALSE))
-            return (FALSE);
-        
-    }else {
-		printf("\n la lista se encuentra vacia\n\n");
-	}
-    return (TRUE);
-}
-t_boolean philo_activity(t_philo *philo)
+void philo_activity(t_philo *philo)
 {
     int i;
     t_philo *philo_current;
@@ -97,10 +82,25 @@ t_boolean philo_activity(t_philo *philo)
     {
         if(philo_current->status == DEAD)
         {
-            printf("%lu %d died\n", timeline(philo->create_at), philo->id);
-            return (FALSE);
+            printf("%lu %d died\n", philo_current->dead, philo_current->id);
+            return ;
         }
         philo_current = philo_current->next;
     }
+}
+
+t_boolean run_philos(t_philo *philo)
+{
+    if(philo->first != NULL)
+	{ 
+        if(!create_threads(philo, TRUE))
+            return (FALSE);
+        usleep(500);
+        if(!create_threads(philo, FALSE))
+            return (FALSE);
+        
+    }else {
+		printf("\n la lista se encuentra vacia\n\n");
+	}
     return (TRUE);
 }

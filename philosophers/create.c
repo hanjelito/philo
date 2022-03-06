@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:43:08 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 17:19:40 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/06 23:49:08 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,8 @@ void data_common(t_philo *new, t_node *node, int id)
 	new->id		= id;
 	new->create_at = get_time();
 	new->start 	= 0;
-	new->end	= 0;
+	new->dead 	= 0;
+	new->t_die = 0;
 	new->eat	= node->eat;
 	new->sleep	= node->slpeep;
 	new->n_eats	= node->n_eats;

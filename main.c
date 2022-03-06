@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:13:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/05 17:54:30 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/07 00:33:10 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,7 @@ int main(int argc, char **argv)
             create_philo(node, ++i);
         if(run_philos(node->philo) == FALSE)
             return (1);
-        // revisar
-        //
-        if(philo_activity(node->philo) == FALSE)
-            return (1);
+        philo_activity(node->philo);
         if(join_philos(node->philo) == FALSE)
             return (1);
     } else {

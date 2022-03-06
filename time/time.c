@@ -25,6 +25,6 @@ void  usleep_time(int time)
     long start;
 
     start = get_time();
-    while(get_time() < start + (long)time)
+    while(get_time() < start + time)
         usleep(10);
 }

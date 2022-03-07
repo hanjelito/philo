@@ -6,13 +6,27 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:13:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/07 00:33:10 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/07 20:42:50 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers/philosophers.h"
 
+void free_node(t_philo *philo)
+{
+    t_philo *temp;
+    int i;
 
+    i = 0;    
+    temp = philo->first;
+    while(i < temp->node->n_philos)
+    {
+        free(temp);
+        temp = philo->next;
+        i++;
+    }
+    free(philo);
+}
 
 int main(int argc, char **argv)
 {
@@ -36,5 +50,8 @@ int main(int argc, char **argv)
     } else {
         printf("error\n");
     }
-     return (0);
+    // free_node(node->philo);
+    free(node);
+    node = 0;
+    return (0);
 }

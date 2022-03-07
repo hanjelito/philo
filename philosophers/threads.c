@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/07 00:30:08 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/07 21:42:12 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static void write_status(t_philo *philo)
     if (philo->status == TAKE_FORK)
         printf("%lu %d has taken a fork\n", timeline(philo->create_at), philo->id);
     else if (philo->status == EATING)
-        printf("%lu %d is eating\n", timeline(philo->create_at), philo->id);
+        printf("%lu %d is eating (%d)\n", timeline(philo->create_at), philo->id, philo->eat);
     else if (philo->status == SLEEPING)
         printf("%lu %d is sleeping\n", timeline(philo->create_at), philo->id);
     else if (philo->status == THINKING)
@@ -29,20 +29,22 @@ static void write_status(t_philo *philo)
 
 static void philo_eat(t_philo *philo)
 {
-    pthread_mutex_lock(&philo->prev->fork);
+    pthread_mutex_lock(&philo->fork);
     philo->status = TAKE_FORK;
-    if(philo->id == philo->prev->id)
-    {
-        pthread_mutex_unlock(&philo->prev->fork);
-        return ;
-    }
+    write_status(philo);
+    // if(philo->id == philo->prev->id)
+    // {
+    //     pthread_mutex_unlock(&philo->prev->fork);
+    //     return ;
+    // }
+    //
+    pthread_mutex_lock(&philo->prev->fork);
     write_status(philo);
     philo->start = get_time();
-    pthread_mutex_lock(&philo->fork);
-    write_status(philo);
     philo->status = EATING;
     write_status(philo);
     usleep_time(philo->eat);
+    //
     pthread_mutex_unlock(&philo->fork);
     pthread_mutex_unlock(&philo->prev->fork);
 }

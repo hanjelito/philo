@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/07 21:57:31 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/08 00:07:19 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,7 @@ t_boolean join_philos(t_philo *philo)
 {
     int i;
     t_philo *philo_current;
-    
-	// philo_current = malloc(sizeof(t_philo));
+
     philo_current = philo->first;
     while(i <= philo_current->node->n_philos)
     {
@@ -53,7 +52,6 @@ void philo_activity(t_philo *philo)
     int i;
     t_philo *philo_current;
     
-	// philo_current = malloc(sizeof(t_philo));
     philo_current = philo->first;
      while(1)
     {
@@ -63,6 +61,7 @@ void philo_activity(t_philo *philo)
             return ;
         }
         philo_current = philo_current->next;
+        usleep(300);
     }
 }
 
@@ -70,8 +69,7 @@ static t_boolean create_threads(t_philo *philo, t_boolean bool)
 {
     int i;
     t_philo *philo_current;
-    
-	// philo_current = malloc(sizeof(t_philo));
+
 	philo_current = philo->first;
     i = 2;
     if (bool == TRUE)

@@ -20,11 +20,28 @@ long timeline(long start)
     return (times - start);
 }
 
-void  usleep_time(int time)
+unsigned long	get_time_ms(void)
 {
-    long start;
+	struct timeval	time;
+	unsigned long	time_ms;
 
-    start = get_time();
-    while(get_time() < start + time)
-        usleep(10);
+	// creamos la fecha segundos tv_sec y los  microsegundos tv_usec
+	gettimeofday(&time, NULL);
+	// jutamos todo
+	time_ms = get_time();
+	return (time_ms);
+}
+
+void	usleep_time(unsigned int milliseconds)
+{
+	unsigned long	initial_time;
+	unsigned long	time;
+
+	initial_time = get_time_ms();
+	time = get_time_ms();
+	while ((time - initial_time) < milliseconds)
+	{
+		time = get_time_ms();
+		usleep(300);
+	}
 }

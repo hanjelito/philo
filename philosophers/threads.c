@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/07 21:42:12 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/08 01:13:57 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,11 +32,11 @@ static void philo_eat(t_philo *philo)
     pthread_mutex_lock(&philo->fork);
     philo->status = TAKE_FORK;
     write_status(philo);
-    // if(philo->id == philo->prev->id)
-    // {
-    //     pthread_mutex_unlock(&philo->prev->fork);
-    //     return ;
-    // }
+    if(philo->id == philo->prev->id)
+    {
+        pthread_mutex_unlock(&philo->prev->fork);
+        return ;
+    }
     //
     pthread_mutex_lock(&philo->prev->fork);
     write_status(philo);

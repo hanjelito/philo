@@ -7,6 +7,7 @@
 
 long    get_time(void);
 long    timeline(long start);
-void    usleep_time(int time);
+// void    usleep_time(int time);
+void	usleep_time(unsigned int milliseconds);
 
 #endif

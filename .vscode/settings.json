@@ -3,6 +3,7 @@
         "philosophers.h": "c",
         "time.h": "c",
         "get_time.h": "c",
-        "__threading_support": "c"
+        "__threading_support": "c",
+        "libft.h": "c"
     }
 }

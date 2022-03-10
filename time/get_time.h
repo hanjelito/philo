@@ -5,9 +5,9 @@
 #include "../philosophers/philosophers.h"
 
 
-long    get_time(void);
-long    timeline(long start);
-// void    usleep_time(int time);
-void	usleep_time(unsigned int milliseconds);
+// long    get_time(void);
+void	ft_msleep(unsigned int milliseconds);
+unsigned long	get_time_ms(void);
+long	time_diff_ms(unsigned long time1, unsigned long time2);
 
 #endif

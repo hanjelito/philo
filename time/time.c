@@ -1,23 +1,28 @@
 #include "get_time.h"
 
-long get_time(void)
+static unsigned long	ft_abs(long n)
 {
-    struct timeval timev;
-    long            times;
-
-    gettimeofday(&timev, NULL);
-    times = (timev.tv_sec * 1000) + timev.tv_usec / 1000;
-    return (times);
+	if (n < 0)
+		return (-n);
+	return (n);
 }
 
-long timeline(long start)
+long	time_diff_ms(unsigned long time1, unsigned long time2)
 {
-    struct timeval timev;
-    long            times;
+	long	diff;
 
-    gettimeofday(&timev, NULL);
-    times = (timev.tv_sec * 1000) + timev.tv_usec / 1000;
-    return (times - start);
+	diff = ft_abs(time1 - time2);
+	return (diff);
+}
+
+static unsigned long	timeval_to_milliseconds(struct timeval time)
+{
+	unsigned long	ms_time;
+	unsigned long	seconds_to_ms;
+
+	seconds_to_ms = time.tv_sec * 1000;
+	ms_time = seconds_to_ms + time.tv_usec / 1000;
+	return (ms_time);
 }
 
 unsigned long	get_time_ms(void)
@@ -25,14 +30,12 @@ unsigned long	get_time_ms(void)
 	struct timeval	time;
 	unsigned long	time_ms;
 
-	// creamos la fecha segundos tv_sec y los  microsegundos tv_usec
 	gettimeofday(&time, NULL);
-	// jutamos todo
-	time_ms = get_time();
+	time_ms = timeval_to_milliseconds(time);
 	return (time_ms);
 }
 
-void	usleep_time(unsigned int milliseconds)
+void	ft_msleep(unsigned int milliseconds)
 {
 	unsigned long	initial_time;
 	unsigned long	time;

@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:43:08 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/10 00:40:00 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/10 23:12:05 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ static void data_common(t_philo *new, t_node *node, int id)
 	new->n_eats		= 0;
 	new->status		= RUN;
 	new->dead		= 0;
+	new->t_die		= 0;
 	new->node		= node;
 	pthread_mutex_init(&new->fork, NULL);
 	pthread_mutex_init(&new->message, NULL);

@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/10 00:45:48 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/10 23:06:49 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,7 @@ t_boolean	join_philos(t_philo *philo);
 void philo_activity(t_philo *philo);
 void    init_node(t_node *node, char **argv);
 //
-// void    deat_philo(t_philo *philo);
+void deat_philo(t_philo *philo);
 
 //
 

@@ -9,4 +9,4 @@ philosophers/create.c \
 philosophers/threads.c \
 time/time.c \
 main.c
-./a.out 4 310 200 100
+./a.out 4 410 200 200

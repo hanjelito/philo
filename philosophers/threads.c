@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/10 00:59:06 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/10 23:26:15 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,13 +45,13 @@ static void philo_eat(t_philo *philo)
     pthread_mutex_lock(&philo->prev->fork);
     philo->status = TAKE_FORK;
     philo->t_last_eat_ms = get_time_ms();
+    philo->t_die = 0;
     write_status(philo);
     if(philo->id == philo->prev->id)
     {
         return ;
     }
     philo->status = EATING;
-    philo->t_last_eat_ms = get_time_ms();
     philo->node->n_eats++;
     write_status(philo);
     ft_msleep(philo->node->eat);
@@ -73,19 +73,6 @@ static void philo_think(t_philo *philo)
     write_status(philo);
 }
 
-void deat_philo(t_philo *philo)
-{   
-    unsigned long t_current;
-
-    t_current = get_time_ms();
-    philo->t_die  = time_diff_ms(philo->t_last_eat_ms, t_current);
-    if(philo->node->die < philo->t_die)
-    {
-        philo->status = DEAD;
-        philo->dead = philo->t_die;
-    }
-}
-
 void *threads(void *philo_current)
 {
     t_philo *philo;
@@ -93,7 +80,6 @@ void *threads(void *philo_current)
     philo = (t_philo *)philo_current;
     while(1)
     {
-        deat_philo(philo);
         if(philo->status == RUN || philo->status == THINKING)
             philo_eat(philo);
         else if(philo->status == EATING)

@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   create.c                                           :+:      :+:    :+:   */
+/*   create_philos.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:43:08 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/10 23:12:05 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/12 00:17:34 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers.h"
 
-static void data_common(t_philo *new, t_node *node, int id)
+static void philo_common(t_philo *new, t_node *node, int id)
 {
 	new->id				= id;
 	new->t_last_eat_ms	= node->time_initial_ms;
@@ -30,7 +30,7 @@ void	create_philo(t_node *node, int index)
 	t_philo *new;
 
 	new = malloc(sizeof(t_philo));
-	data_common(new, node, index);
+	philo_common(new, node, index);
 	if(node->philo->first == NULL)
 	{
 		node->philo->first			= new;

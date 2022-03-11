@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/10 23:06:49 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/11 23:34:58 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,9 +42,6 @@ typedef enum e_boolean
 typedef struct  s_philo
 {
     int id;
-    // int eat;
-    // int sleep;
-    // int die;
     int n_eats;
     int status;
     unsigned long t_last_eat_ms;
@@ -70,7 +67,6 @@ typedef struct  s_node
     int think;
     int n_eats;
     int id_dead;
-    long time_dead;
     long time_initial_ms;
     t_philo *philo;
 }               t_node;

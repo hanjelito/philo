@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/12 00:45:45 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/12 02:38:34 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,16 +35,22 @@ t_boolean join_philos(t_philo *philo)
     t_philo *philo_current;
 
     philo_current = philo->first;
+    i = 0;
     while(i <= philo_current->node->n_philos)
     {
         if (pthread_join(philo_current->thread, NULL))
-        {
-            write(1, "error\n", 6);
             return (FALSE);
-        }
         philo_current = philo_current->next;
         i ++;
     }
+    i = 0;
+    while (i < philo_current->node->n_philos)
+	{
+		pthread_mutex_destroy(&philo_current->fork);
+		pthread_mutex_destroy(&philo_current->message);
+        philo_current = philo_current->next;
+		i++;
+	}
     return (TRUE);
 }
 
@@ -53,14 +59,15 @@ void philo_activity(t_philo *philo)
     t_philo *philo_current;
     
     philo_current = philo->first;
-     while(1)
+    while(1)
     {
-        if(philo_current->status == DEAD)
+        if(philo_current->t_variable_eat_ms > philo_current->node->die)
         {
-            printf("%lu %d died\n", philo_current->dead, philo_current->id);
-            return ;
+            philo_current->node->id_dead = philo_current->id;
+            break ;
         }
         philo_current = philo_current->next;
-        usleep(10);
     }
+    ft_msleep(300);
+    printf("%lu %d died\n", philo_current->t_variable_eat_ms, philo_current->id);
 }

@@ -4,6 +4,7 @@
         "time.h": "c",
         "get_time.h": "c",
         "__threading_support": "c",
-        "libft.h": "c"
+        "libft.h": "c",
+        "ostream": "c"
     }
 }

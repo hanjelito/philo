@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/12 12:43:27 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/12 14:09:59 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,13 +62,14 @@ void philo_activity(t_philo *philo)
     philo_current = philo->first;
     while(1)
     {
-        if(philo_current->t_variable_eat_ms > philo_current->node->die)
+        if(philo_current->t_variable_eat_ms > philo_current->node->die || philo_current->node->n_philos == 1)
         {
             philo_current->node->id_dead = philo_current->id;
+            ft_msleep(300);
+            printf("%lu %d died\n", philo_current->t_variable_eat_ms, philo_current->id);
             break ;
         }
         philo_current = philo_current->next;
     }
-    ft_msleep(300);
-    printf("%lu %d died\n", philo_current->t_variable_eat_ms, philo_current->id);
+    
 }

@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/12 02:38:34 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/12 12:43:27 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ void init_node(t_node *node, char **argv)
     node->eat = ft_atoi(argv[3]);
     node->slpeep = ft_atoi(argv[4]);
     node->n_eats = 0;
+    node->id_dead = 0;
     if(argv[5])
         node->n_eats = ft_atoi(argv[5]);
     node->philo = malloc(sizeof(t_philo));

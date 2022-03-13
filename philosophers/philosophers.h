@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:25:03 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/12 01:00:02 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/13 13:11:11 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,7 @@ typedef struct  s_node
     int slpeep;
     int think;
     int n_eats;
+    int n_eats_total;
     int id_dead;
     long time_initial_ms;
     t_philo *philo;

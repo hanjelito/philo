@@ -10,4 +10,4 @@ philosophers/threads.c \
 philosophers/create_threads.c \
 time/time.c \
 main.c
-./a.out 1 310 200 100
+./a.out 200 130 60 60 

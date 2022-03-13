@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/13 12:24:18 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/13 13:20:14 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ void init_node(t_node *node, char **argv)
     node->eat = ft_atoi(argv[3]);
     node->slpeep = ft_atoi(argv[4]);
     node->n_eats = 0;
+    node->n_eats_total = 0;
     node->id_dead = 0;
     if(argv[5])
         node->n_eats = ft_atoi(argv[5]);
@@ -58,12 +59,13 @@ t_boolean join_philos(t_philo *philo)
 void philo_activity(t_philo *philo)
 {
     t_philo *philo_current;
-    // unsigned long t_variable_eat_ms;
     
     philo_current = philo->first;
     while(1)
     {
         philo_current->t_variable_eat_ms = time_diff_ms(philo_current->t_last_eat_ms, get_time_ms());
+        if(philo_current->node->n_eats_total == (philo_current->node->n_eats * philo_current->node->n_eats))
+                break ;
         if(philo_current->t_variable_eat_ms > philo_current->node->die)
         {
             philo_current->node->id_dead = philo_current->id;

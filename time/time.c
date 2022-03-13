@@ -1,50 +1,62 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   time.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/03/11 14:04:28 by juan-gon          #+#    #+#             */
+/*   Updated: 2022/03/13 14:11:54 by juan-gon         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "get_time.h"
 
-static unsigned long	ft_abs(long n)
+static unsigned long	time_to_ms(struct timeval time)
 {
-	if (n < 0)
-		return (-n);
-	return (n);
+	unsigned long	sec_to_ms;
+	unsigned long	t_ms;
+
+	sec_to_ms = time.tv_sec * 1000;
+	t_ms = sec_to_ms + time.tv_usec / 1000;
+	return (t_ms);
 }
 
-long	time_diff_ms(unsigned long time1, unsigned long time2)
+void	ft_leep_ms(unsigned int milliseconds)
 {
-	long	diff;
+	unsigned long	time;
+	unsigned long	init_time;
 
-	diff = ft_abs(time1 - time2);
-	return (diff);
+	init_time = t_get_ms();
+	time = t_get_ms();
+	while ((time - init_time) < milliseconds)
+	{
+		time = t_get_ms();
+		usleep(300);
+	}
 }
 
-static unsigned long	timeval_to_milliseconds(struct timeval time)
-{
-	unsigned long	ms_time;
-	unsigned long	seconds_to_ms;
-
-	seconds_to_ms = time.tv_sec * 1000;
-	ms_time = seconds_to_ms + time.tv_usec / 1000;
-	return (ms_time);
-}
-
-unsigned long	get_time_ms(void)
+unsigned long	t_get_ms(void)
 {
 	struct timeval	time;
 	unsigned long	time_ms;
 
 	gettimeofday(&time, NULL);
-	time_ms = timeval_to_milliseconds(time);
+	time_ms = time_to_ms(time);
 	return (time_ms);
 }
 
-void	ft_msleep(unsigned int milliseconds)
+static unsigned long	ft_number_positive(long num)
 {
-	unsigned long	initial_time;
-	unsigned long	time;
+	if (num < 0)
+		return (-num);
+	return (num);
+}
 
-	initial_time = get_time_ms();
-	time = get_time_ms();
-	while ((time - initial_time) < milliseconds)
-	{
-		time = get_time_ms();
-		usleep(300);
-	}
+long	t_diff_ms(unsigned long t1, unsigned long t2)
+{
+	long	diff;
+
+	diff = ft_number_positive(t1 - t2);
+	return (diff);
 }

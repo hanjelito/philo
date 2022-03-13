@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/12 14:08:11 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/13 12:20:10 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ static void write_status(t_philo *philo)
     unsigned long time_ms = get_time_ms();
 
     pthread_mutex_lock(&philo->message);
-    philo->t_variable_eat_ms = time_diff_ms(philo->t_last_eat_ms, time_ms);
     t_curren_ms = time_diff_ms(philo->node->time_initial_ms, time_ms);
     if(!philo->node->id_dead)
     {

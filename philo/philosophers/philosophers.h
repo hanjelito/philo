@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/13 14:05:45 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 01:03:13 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 15:07:31 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,17 +57,17 @@ typedef struct s_philo
 
 typedef struct s_node
 {
-	int		n_philos;
-	int		die;
-	int		eat;
-	int		slpeep;
-	int		think;
-	int		n_eats;
-	int		n_eats_total;
-	int		id_dead;
-	long	time_initial_ms;
+	int					n_philos;
+	int					die;
+	int					eat;
+	int					slpeep;
+	int					think;
+	int					n_eats;
+	int					n_eats_total;
+	int					id_dead;
+	long				time_initial_ms;
 	pthread_mutex_t		message;
-	t_philo	*philo;
+	t_philo				*philo;
 }				t_node;
 
 void		create_philo(t_node *node, int index);

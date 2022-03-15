@@ -6,21 +6,19 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:13:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 01:37:26 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 15:04:02 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philosophers/philosophers.h"
 
-
 static void	philo_free(t_philo *philo)
 {
-	t_philo			*philo_current;
-	int i;
+	int		i;
+	t_philo	*philo_current;
 
 	i = 1;
 	philo_current = philo->next;
-
 	while (i < philo_current->node->n_philos)
 	{	
 		free(philo_current);

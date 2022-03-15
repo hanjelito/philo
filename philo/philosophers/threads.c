@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 01:45:42 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 01:48:16 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ void	*threads(void *philo_current)
 	t_philo	*philo;
 
 	philo = (t_philo *)philo_current;
-	while (!philo->node->id_dead)
+	while (philo->node->id_dead == FALSE)
 	{
 		if (philo->status == RUN || philo->status == THINKING)
 			philo_eat(philo);

@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 01:48:16 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 14:33:14 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,17 +23,20 @@ static	void	write_status(t_philo *philo)
 	if (!philo->node->id_dead)
 	{
 		if (philo->status == TAKE_FORK)
-			printf("%lu %d has taken a fork (%lu)\n",
-				t_curren_ms, philo->id, philo->t_variable_eat_ms);
+			printf("%lu %d has taken a fork (%d)\n",
+				t_curren_ms, philo->id, philo->n_eats);
 		else if (philo->status == EATING)
-			printf("%lu %d is eating (%lu)\n",
-				t_curren_ms, philo->id, philo->t_variable_eat_ms);
+		{
+			philo->n_eats++;
+			printf("%lu %d is eating (%d)\n",
+				t_curren_ms, philo->id, philo->n_eats);
+		}
 		else if (philo->status == SLEEPING)
-			printf("%lu %d is sleeping (%lu)\n",
-				t_curren_ms, philo->id, philo->t_variable_eat_ms);
+			printf("%lu %d is sleeping (%d)\n",
+				t_curren_ms, philo->id, philo->n_eats);
 		else if (philo->status == THINKING)
-			printf("%lu %d is thinking (%lu)\n",
-				t_curren_ms, philo->id, philo->t_variable_eat_ms);
+			printf("%lu %d is thinking (%d)\n",
+				t_curren_ms, philo->id, philo->n_eats);
 	}
 	pthread_mutex_unlock(&philo->node->message);
 }
@@ -53,7 +56,6 @@ static	void	philo_eat(t_philo *philo)
 	philo->status = TAKE_FORK;
 	write_status(philo);
 	philo->status = EATING;
-	philo->n_eats++;
 	philo->t_last_eat_ms = t_get_ms();
 	write_status(philo);
 	ft_leep_ms(philo->node->eat);

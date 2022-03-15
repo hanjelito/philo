@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 01:48:06 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 14:30:46 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,26 @@ t_boolean	join_philos(t_philo *philo)
 	return (TRUE);
 }
 
+static void max_eas(t_philo *philo)
+{
+	int i;
+	int n_eats;
+	t_philo *philo_current;
+	
+	philo_current = philo->first;
+	i = 0;
+	n_eats = 0;
+	while(i < philo_current->node->n_philos)
+	{
+		if(philo_current->n_eats >= philo_current->node->n_eats)
+			n_eats++;
+		i++;
+		philo_current = philo_current->next;
+	}
+	if(n_eats >= philo_current->node->n_philos)
+		philo_current->node->id_dead = TRUE;
+}
+
 void	philo_activity(t_philo *philo)
 {
 	t_philo			*philo_current;
@@ -63,8 +83,11 @@ void	philo_activity(t_philo *philo)
 	philo_current = philo->first;
 	while (1)
 	{
+		max_eas(philo);
 		philo_current->t_variable_eat_ms
 			= t_diff_ms(philo_current->t_last_eat_ms, t_get_ms());
+		if (philo_current->node->id_dead == TRUE)
+			break ;
 		if (philo_current->t_variable_eat_ms
 			> (unsigned long)philo_current->node->die)
 		{

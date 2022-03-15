@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/13 14:40:52 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 01:02:53 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ static	void	write_status(t_philo *philo)
 	unsigned long	time_ms;
 
 	time_ms = t_get_ms();
-	pthread_mutex_lock(&philo->message);
+	pthread_mutex_lock(&philo->node->message);
 	t_curren_ms = t_diff_ms(philo->node->time_initial_ms, time_ms);
 	if (!philo->node->id_dead)
 	{
@@ -35,7 +35,7 @@ static	void	write_status(t_philo *philo)
 			printf("%lu %d is thinking (%lu)\n",
 				t_curren_ms, philo->id, philo->t_variable_eat_ms);
 	}
-	pthread_mutex_unlock(&philo->message);
+	pthread_mutex_unlock(&philo->node->message);
 }
 
 static	void	philo_eat(t_philo *philo)

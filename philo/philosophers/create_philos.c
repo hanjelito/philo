@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:43:08 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/13 14:18:06 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 01:03:43 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ static	void	philo_common(t_philo *new, t_node *node, int id)
 	new->t_variable_eat_ms = 0;
 	new->node = node;
 	pthread_mutex_init(&new->fork, NULL);
-	pthread_mutex_init(&new->message, NULL);
 }
 
 void	create_philo(t_node *node, int index)

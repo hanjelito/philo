@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/13 14:05:45 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/13 14:48:59 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 01:03:13 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,6 @@ typedef struct s_philo
 	unsigned long		t_last_eat_ms;
 	unsigned long		t_variable_eat_ms;
 	pthread_t			thread;
-	pthread_mutex_t		message;
 	pthread_mutex_t		fork;
 	struct s_philo		*next;
 	struct s_philo		*prev;
@@ -67,6 +66,7 @@ typedef struct s_node
 	int		n_eats_total;
 	int		id_dead;
 	long	time_initial_ms;
+	pthread_mutex_t		message;
 	t_philo	*philo;
 }				t_node;
 

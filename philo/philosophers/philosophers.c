@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/13 14:55:56 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 01:04:35 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ void	init_node(t_node *node, char **argv)
 	node->id_dead = 0;
 	if (argv[5])
 		node->n_eats = ft_atoi(argv[5]);
+	pthread_mutex_init(&node->message, NULL);
 	node->philo = malloc(sizeof(t_philo));
 	node->philo->first = NULL;
 	node->philo->last = NULL;
@@ -48,10 +49,10 @@ t_boolean	join_philos(t_philo *philo)
 	while (i < philo_current->node->n_philos)
 	{
 		pthread_mutex_destroy(&philo_current->fork);
-		pthread_mutex_destroy(&philo_current->message);
 		philo_current = philo_current->next;
 		i++;
 	}
+	pthread_mutex_destroy(&philo_current->node->message);
 	return (TRUE);
 }
 

@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 01:02:53 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 01:21:49 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,6 @@ static	void	philo_eat(t_philo *philo)
 	philo->status = TAKE_FORK;
 	write_status(philo);
 	philo->status = EATING;
-	philo->node->n_eats_total++;
 	philo->n_eats++;
 	philo->t_last_eat_ms = t_get_ms();
 	write_status(philo);
@@ -88,10 +87,9 @@ void	*threads(void *philo_current)
 			philo_sleep(philo);
 		else if (philo->status == SLEEPING)
 			philo_think(philo);
-		if (philo->node->id_dead)
+		else if (philo->node->id_dead)
 			return (NULL);
-		if (philo->n_eats >= philo->node->n_eats && philo->node->n_eats)
-			return (NULL);
+		// printf("entro");
 	}
 	return (NULL);
 }

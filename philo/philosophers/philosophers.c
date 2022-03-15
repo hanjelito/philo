@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:38:06 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 01:04:35 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/15 01:25:08 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,16 +65,14 @@ void	philo_activity(t_philo *philo)
 	{
 		philo_current->t_variable_eat_ms
 			= t_diff_ms(philo_current->t_last_eat_ms, t_get_ms());
-		if (philo_current->node->n_eats_total
-			== (philo_current->node->n_eats * philo_current->node->n_eats))
-			break ;
 		if (philo_current->t_variable_eat_ms
 			> (unsigned long)philo_current->node->die)
 		{
+			pthread_mutex_lock(&philo_current->node->message);
 			philo_current->node->id_dead = philo_current->id;
-			ft_leep_ms(300);
 			printf("%lu %d died\n",
 				philo_current->t_variable_eat_ms, philo_current->id);
+			pthread_mutex_unlock(&philo_current->node->message);
 			break ;
 		}
 		philo_current = philo_current->next;

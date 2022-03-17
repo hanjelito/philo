@@ -6,7 +6,7 @@
 /*   By: juan-gon <juan-gon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/21 12:45:22 by juan-gon          #+#    #+#             */
-/*   Updated: 2022/03/15 14:37:49 by juan-gon         ###   ########.fr       */
+/*   Updated: 2022/03/17 12:56:29 by juan-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,6 @@ static	void	philo_eat(t_philo *philo)
 	if (philo->id == philo->prev->id)
 	{
 		pthread_mutex_unlock(&philo->fork);
-		philo->node->id_dead = philo->id;
 		return ;
 	}
 	pthread_mutex_lock(&philo->prev->fork);
